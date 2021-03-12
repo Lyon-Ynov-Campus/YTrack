@@ -1,5 +1,3 @@
-## Click Frenzy
-
 ### Objectives
 In this project you will create a browser-based game inspired by Osu! and Frets on Fire.
 
