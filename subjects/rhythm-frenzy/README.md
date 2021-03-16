@@ -1,10 +1,8 @@
-## Click Frenzy
-
 ### Objectives
 In this project you will create a browser-based game inspired by Osu! and Frets on Fire.
 
 ### Getting started
-You will need to create a public repository with the name `click-frenzy`.
+You will need to create a public repository with the name `rhythm-frenzy`.
 
 ### Core features
 - You will use a `requestAnimationFrame` recursive loop.
