@@ -8,7 +8,7 @@ You will need to create a public repository with the name `rhythm-frenzy`.
 - You will use a `requestAnimationFrame` recursive loop.
 - HTML elements are created automatically at random intervals and move from the top of the screen to the bottom.
 - When the [N] key is pressed, the element will be destroyed
-- A line will be drawn using HTML, if the key is pressed when the element touches the line the element's color will change to red, else it will change to green.
+- A line will be drawn using HTML, if the key is pressed when the element touches the line the element's color will change to green, else it will change to red.
 
 ### Bonuses
 - Elements appear on different columns, each column is associated to a different key
