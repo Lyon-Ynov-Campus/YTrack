@@ -19,6 +19,5 @@ You will need to create a public repository with the name `rhythm-frenzy`.
 
 ### Example
 - Inspired by Guitar Hero or Frets on Fire
-![](screen.png | width=200)
 
 Have fun and good luck.
