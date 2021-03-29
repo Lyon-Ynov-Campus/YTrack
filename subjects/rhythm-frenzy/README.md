@@ -20,4 +20,7 @@ You will need to create a public repository with the name `rhythm-frenzy`.
 ### Example
 - Inspired by Guitar Hero or Frets on Fire
 
+### Notions
+- [requestAnimationFrame](https://grafikart.fr/tutoriels/animation-requestanimationframe-764)
+
 Have fun and good luck.
