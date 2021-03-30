@@ -21,6 +21,8 @@ You will need to create a public repository with the name `rhythm-frenzy`.
 - Inspired by Guitar Hero or Frets on Fire
 
 ### Notions
-- [requestAnimationFrame](https://grafikart.fr/tutoriels/animation-requestanimationframe-764)
+- [Tuto animation JS with requestAnimationFrame](https://grafikart.fr/tutoriels/animation-requestanimationframe-764)
+- [How to make a game loop](https://spicyyoghurt.com/tutorials/html5-javascript-game-development/create-a-proper-game-loop-with-requestanimationframe)
+- [MDN - requestAnimationFrame](https://developer.mozilla.org/fr/docs/Web/API/Window/requestAnimationFrame)
 
 Have fun and good luck.
