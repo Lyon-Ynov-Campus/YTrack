@@ -1,5 +1,116 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>I Am your Father</body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link id="fav" rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;,">
+        <style>
+
+            :root {
+              --background: hsl(0, 0%, 12%);
+              --text: hsl(0, 0%, 80%);
+              --clear: hsl(0, 0%, 65%);
+            }
+            
+            * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+            }
+
+            #title {
+                color: white;
+                font-size: 70px;
+            }
+            
+            body {
+              font-family: sans-serif;
+              letter-spacing: 1.5px;
+              background: var(--background);
+              display: flex;
+              flex-wrap: wrap;
+              padding: 100px;
+              justify-content: center;
+              align-items: center;
+              font-size: 15px;
+              margin-top: 150px;
+            }
+            
+            button {
+              outline: none;
+              border: none;
+            }
+            
+            #buttons {
+              position: fixed;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 100%;
+              top: 0;
+              height: 150px;
+              background: var(--background);
+              box-shadow: 0 0 50px black;
+            }
+            
+            #buttons * {
+              margin: 0 20px;
+              padding: 10px 20px;
+              background: var(--clear);
+              border-radius: 20px;
+              cursor: pointer;
+              user-select: none;
+              width: 200px;
+              text-align: center;
+            }
+              </style>
+    </head>
+    <body>
+        <script type="module">
+            import { IAmYourFather} from './im-your-father.js'
+    
+            const body = document.querySelector("body")
+            // const title = document.createElement('h1')
+            // const buttonsContainer = document.createElement('div')
+            
+            // buttonsContainer.id = 'buttons'
+            // title.id = 'title'
+            
+            const setTextToTitle = (id) => {
+                IAmYourFather(id)
+                .then((res) => {
+                    title.textContent = res;
+                }).catch((err) => {
+                    title.textContent = err;
+                })
+            }
+
+            window.setTextToTitle = setTextToTitle
+
+            // body.append(title)
+       
+       </script>
+       <div id="buttons">
+           <button id="btn-4" onclick="setTextToTitle(4)">Luke Skywalker</button>
+           <button id="btn-1" onclick="setTextToTitle(1)">Darth Vader</button>
+           <button id="btn-10" onclick="setTextToTitle(10)">Unknown</button>
+       </div>
+       <h1 id="title">Default text</h1>
+    </body>
+    <!-- <script type="module">
+        import { IAmYourFather} from './im-your-father.js'
+
+        const divs = document.querySelectorAll("div[id*=div-]")
+      
+        divs.forEach(async (div) => {
+            // const div = document.createElement("div")
+
+            // div.id= `div-${id}`
+            try {
+                div.innerText = await IAmYourFather(div.dataset.id)
+            } catch (err) {
+                div.innerText = err
+            }
+        })
+
+    </script> -->
 </html>
