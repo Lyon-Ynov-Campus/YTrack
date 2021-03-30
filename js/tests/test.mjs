@@ -5,19 +5,19 @@ import * as fs from 'fs'
 const { readFile, writeFile } = fs.promises
 
 global.window = global
-global.fetch = url => {
-  // this is a fake implementation of fetch for the tester
-  // -> refer to https://devdocs.io/javascript/global_objects/fetch
-  const accessBody = async () => { throw Error('body unavailable') }
-  return {
-    ok: false,
-    type: 'basic',
-    status: 500,
-    statusText: 'Internal Server Error',
-    json: accessBody,
-    text: accessBody,
-  }
-}
+// global.fetch = url => {
+//   // this is a fake implementation of fetch for the tester
+//   // -> refer to https://devdocs.io/javascript/global_objects/fetch
+//   const accessBody = async () => { throw Error('body unavailable') }
+//   return {
+//     ok: false,
+//     type: 'basic',
+//     status: 500,
+//     statusText: 'Internal Server Error',
+//     json: accessBody,
+//     text: accessBody,
+//   }
+// }
 
 const wait = delay => new Promise(s => setTimeout(s, delay))
 const fail = fn => { try { fn() } catch (err) { return true } }
