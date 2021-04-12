@@ -4,7 +4,8 @@
 
 Create a function `waitAndExecute` that takes a function `callback` in argument.
 
-`waitAndExecute` returns a function that calls the `callback` function passing its arguments, one seconde after the function call.
+`waitAndExecute` returns a function that will call the `callback` passing its arguments. 
+This callback function must be triggered one second after `waitAndExecute` has been called.
 
 **Example**
 
