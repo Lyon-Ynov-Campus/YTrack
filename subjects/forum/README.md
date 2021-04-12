@@ -65,11 +65,11 @@ You can look at filtering by categories as subforums. A subforum is a section of
 
 Note that the last two are only available for registered users and must refer to the logged in user.
 
-#### Docker
+#### Heroku
 
-<!-- For the forum project you must use Docker. You can see all about docker basics on the [ascii-art-web-dockerize](https://public.01-edu.org/subjects/ascii-art-web/dockerize/) subject.
+For the forum project you **must** deploy you website to Heroku. You can see all about heroku basics on the [forum-herokuize](https://lyon-ynov-campus.github.io/YTrack/subjects/forum/herokuize/) subject.
 
-This project will help you learn about: -->
+This project will help you learn about:
 
 - The basics of web :
   - HTML

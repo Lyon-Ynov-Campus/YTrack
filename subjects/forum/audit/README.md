@@ -52,31 +52,9 @@
 
 ###### Does it present the comment you created?
 
-#### Docker
+### Heroku
 
-###### Does the project have Dockerfiles?
-
-##### Try to run the command `"docker image build [OPTINS] PATH | URL | -"` to build the image using using the project Dockerfiles and run the command `"docker images"` to see images.
-
-```
-student$ docker images
-REPOSITORY              TAG                             IMAGE ID            CREATED             SIZE
-<name of the image>     latest                          85a65d66ca39        7 seconds ago       795MB
-```
-
-###### Does all images build as above?
-
-##### Try running the command `"docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]"` to start the containers using the images just created and run the command `"docker ps -a"` to see containers.
-
-```
-student$ docker ps -a
-CONTAINER ID        IMAGE                  COMMAND                  CREATED             STATUS              PORTS                    NAMES
-cc8f5dcf760f        <name of the image>    "./server"               6 seconds ago       Up 6 seconds        0.0.0.0:8080->8080/tcp   ascii-art-web
-```
-
-###### Is the docker containers running as above?
-
-###### Does the project present no [unused object](https://docs.docker.com/config/pruning/)?
+###### Is the app available and accessible to `https://forum-{}.herokuapp.com/` where {} is the name of the group
 
 #### Functional
 

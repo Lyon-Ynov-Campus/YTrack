@@ -1,7 +1,5 @@
 #### Functional
 
-###### Has the requirement for the allowed packages been respected? (Reminder for this project: (only [standard packages](https://golang.org/pkg/)
-
 ###### Does the project have a DockerFile?
 
 ##### Try running the [command](https://docs.docker.com/engine/reference/commandline/image_build/) `"docker image build [OPTIONS] PATH | URL | -"` to build the image using the project Dockerfile. (example : `"docker image build -f Dockerfile -t <name_of_the_image> ."`).
@@ -54,14 +52,6 @@ student$
 ###### +Does the server run quickly and effectively? (Favoring recursive, no unnecessary data requests, etc)
 
 ###### +Does the code obey the [good practices](https://public.01-edu.org/subjects/good-practices/)?
-
-###### +Is there a test file for this code?
-
-###### +Are the tests checking each possible case?
-
-###### +Are the instructions in the website clear?
-
-###### +Does the project run using an API?
 
 #### Social
 

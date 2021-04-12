@@ -17,11 +17,11 @@ In `forum herokuize`, you will learn how to deploy your Golang based website to 
         ```
     - Your project must not use relative imports and needs a go.mod file
         ```bash
-        go mod init groupie-tracker
+        go mod init forum
         ```
         And imports should be of the form
         ```go
-        import "groupie-tracker/mysubpackage"
+        import "forum/mysubpackage"
         ```
 
 2. Install curl
@@ -58,7 +58,7 @@ In `forum herokuize`, you will learn how to deploy your Golang based website to 
     - N.B. make sure the project is in a WSL folder (no /mnt/), Windows tend to mess with UNIX file permissions
 
 9. Create an heroku app
-    - From your app folder type `heroku create groupie-tracker-{} --buildpack heroku/go` with {} being your group name or anything you want.
+    - From your app folder type `heroku create forum-{} --buildpack heroku/go` with {} being your group name or anything you want.
 
 10. Still in this folder, test your app locally with `heroku local`
 
@@ -66,7 +66,7 @@ In `forum herokuize`, you will learn how to deploy your Golang based website to 
 
 12. Deploy your app using `git push heroku master`
 
-13. Visit your website on `https://groupie-tracker-{}.herokuapp.com/` with {} being your custom suffix
+13. Visit your website on `https://forum-{}.herokuapp.com/` with {} being your custom suffix
 
 14. Access your error logs with `heroku logs --tail`
 
