@@ -6,12 +6,12 @@ This project consists in creating a web forum that allows :
 
 - communication between users.
 - associating categories to posts.
-- liking and disliking posts and comments.
+- liking and disliking posts.
 - filtering posts.
 
 #### SQLite
 
-In order to store the data in your forum (like users, posts, comments, etc.) you will use the database library SQLite.
+In order to store the data in your forum (like users, posts, etc.) you will use the database library SQLite.
 
 SQLite is a popular choice as embedded database software for local/client storage in application software such as web browsers. It enables you to create a database as well as controlling it by using queries.
 
@@ -23,7 +23,7 @@ To know more about SQLite you can check the [SQLite page](https://www.sqlite.org
 
 #### Authentication
 
-In this segment the client must be able to `register` as a new user on the forum, by inputting their credentials. You also have to create a `login session` to access the forum and be able to add posts and comments.
+In this segment the client must be able to `register` as a new user on the forum, by inputting their credentials. You also have to create a `login session` to access the forum and be able to add posts.
 
 You should use cookies to allow each user to have only one opened session. Each of this sessions must contain an expiration date. It is up to you to decide how long the cookie stays "alive".
 
@@ -39,21 +39,20 @@ The forum must be able to check if the email provided is present in the database
 
 #### Communication
 
-In order for users to communicate between each other, they will have to be able to create posts and comments.
+In order for users to communicate between each other, they will have to be able to create posts.
 
-- Only registered users will be able to create posts and comments.
-- When registered users are creating a post they can associate one or more categories to it.
-  - The implementation and choice of the categories is up to you.
-- The posts and comments should be visible to all users (registered or not).
-- Non-registered users will only be able to see posts and comments.
+- Only registered users will be able to create posts.
+- Posts that belongs to the registered user can be edited or deleted.
+- The posts should be visible to all users (registered or not).
+- Non-registered users will only be able to see posts.
 
 #### Likes and Dislikes
 
-Only registered users will be able to like or dislike posts and comments.
+Only registered users will be able to like or dislike posts.
 
 The number of likes and dislikes should be visible by all users (registered or not).
 
-#### Filter
+<!-- #### Filter
 
 You need to implement a filter mechanism, that will allow users to filter the displayed posts by :
 
@@ -63,7 +62,7 @@ You need to implement a filter mechanism, that will allow users to filter the di
 
 You can look at filtering by categories as subforums. A subforum is a section of an online forum dedicated to a specific topic.
 
-Note that the last two are only available for registered users and must refer to the logged in user.
+Note that the last two are only available for registered users and must refer to the logged in user. -->
 
 #### Heroku
 
