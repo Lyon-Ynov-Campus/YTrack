@@ -30,6 +30,6 @@ isMyRoomClean(false).catch(err => console.log(err)) // "My room is not clean" af
 
 ### Notions
 
-* [javascript.info/settimeout-setinterval](https://javascript.info/settimeout-setinterval)
-* [devdocs.io/javascript/global_objects/promise/promise](https://devdocs.io/javascript/global_objects/promise/promise)
+- [javascript.info/settimeout-setinterval](https://javascript.info/settimeout-setinterval)
+- [devdocs.io/javascript/global_objects/promise/promise](https://devdocs.io/javascript/global_objects/promise/promise)
 
