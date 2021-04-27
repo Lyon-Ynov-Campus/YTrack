@@ -13,11 +13,11 @@ This function create a new object that omit only the keys, in the second argumen
 **Example**
 
 ``` js
-pick({a: "s", b: "t"}, b); // Returns {b: "t"}
-pick({a: "s", b: "t", c: "u"}, [b, c]) // Returns {b: "t", c: "u"}  
+pick({a: "s", b: "t"}, "b"); // Returns {b: "t"}
+pick({a: "s", b: "t", c: "u"}, ["b", "c"]) // Returns {b: "t", c: "u"}  
 
-omit({a: "s", b: "t"}, b); // Returns {a: "s"}
-omit({a: "s", b: "t", c: "u"}, [b, c]) // Returns {a: "s"}
+omit({a: "s", b: "t"}, "b"); // Returns {a: "s"}
+omit({a: "s", b: "t", c: "u"}, ["b", "c"]) // Returns {a: "s"}
 ```
 
 ### Notions
