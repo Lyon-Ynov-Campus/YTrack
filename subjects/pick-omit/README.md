@@ -23,3 +23,4 @@ omit({a: "s", b: "t", c: "u"}, ["b", "c"]) // Returns {a: "s"}
 ### Notions
 
 - [devdocs.io/javascript/global_objects/object](https://devdocs.io/javascript/global_objects/object)
+- [devdocs.io/javascript/global_objects/array/includes](https://devdocs.io/javascript/global_objects/array/includes)
