@@ -20,8 +20,8 @@ In `forum advanced features`, you will have to implement the following features 
   - Shows the user created posts
   - Shows where the user left a like or a dislike
   - Shows where and what the user has been commenting. For this, the comment will have to be shown, as well as the post commented
-<!-- 
-- You have to create a section where you will be able to Edit/Remove posts and comments. -->
+<!-- - You have to create a section where you will be able to Edit/Remove posts and comments. -->
+- You can create a post containing an image as well as text. (max size of the images to load should be 20 mb, otherwise an error message is displayed)
 
 We encourage you to add any other additional features that you find relevant.
 
