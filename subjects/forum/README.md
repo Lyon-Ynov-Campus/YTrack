@@ -21,6 +21,19 @@ To structure your database and to achieve better performance we highly advise yo
 
 To know more about SQLite you can check the [SQLite page](https://www.sqlite.org/index.html).
 
+#### API
+
+One of the goal of this project is also to gather all the knowledge acquired throughout the year. With that in mind, you will be asked to create your very first mini API.
+
+* Your Go routes must either be :
+  * Public Route: A Route that present HTML content via `html/template` golang package
+  * "*Private*" Route: A Route that performs an action on the database or retrieves data. Then it returns a result in the response of the route *(ResponseWriter)*
+  <br><br>
+* Your JavaScript will then: 
+  * Call the privates routes with the `fetch` function, specifying the method and maybe the params you want to pass to your route.
+  * When the route has responded, it will display the data on the page. (You can use [handleBars library](https://handlebarsjs.com/) to help you display the data dynamically)
+
+
 #### Authentication
 
 In this segment the client must be able to `register` as a new user on the forum, by inputting their credentials. You also have to create a `login session` to access the forum and be able to add posts.
