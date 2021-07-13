@@ -1,15 +1,19 @@
-## hangman
+## hangman-web
 
-This project is based on the famous HangMan Game
+This raid is based on the famous HangMan Game and you will need the previous project `hangman`
 
-You will need to create a public repository with the name `hangman`
+You will need to create a public repository with the name `hangman-web`
 
 ### Notions
 - [Golang Documentation: net](https://golang.org/pkg/net/)
 - [Golang Documentation: ioutil](https://golang.org/pkg/ioutil/)
 - [Golang Documentation: rand](https://golang.org/pkg/math/rand/)
+- [Go Web Example Documentation: templates](https://gowebexamples.com/templates/)
+- [Golang Documentation: templates](https://pkg.go.dev/html/template)
 
 ### Instructions
+
+MORE TO COME !!!
 
 Create a program `hangman` that will take a file as parameter. 
 This file contains a bunch of words with wich the program will play. Each word is separated with a newline.
@@ -24,23 +28,3 @@ You will have 10 attempts to complete the game.
 * The program continues until the word is either found, or the numbers of attempts is 0.
 
 ### Usage
-```
-$> ./hangman words.txt
-Good Luck, you have 10 attempts.
-_ _ _ _ O
-
-Choose: E
-_ E _ _ O
-
-Choose: A
-Not present in the word, 9 attempts remaining
-
-Choose: L
-_ E L L O 
-
-Choose: H
-H E L L O
-
-Congrats !
-
-```
