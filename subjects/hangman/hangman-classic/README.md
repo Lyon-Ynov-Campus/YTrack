@@ -23,6 +23,10 @@ You will have 10 attempts to complete the game.
 * If the letter is present, it will reveal all the letters corresponding in the word.
 * The program continues until the word is either found, or the numbers of attempts is 0.
 
+### Allowed packages
+
+- Only the [standard go](https://golang.org/pkg/) packages are allowed
+
 ### Usage
 ```
 $> ./hangman words.txt
