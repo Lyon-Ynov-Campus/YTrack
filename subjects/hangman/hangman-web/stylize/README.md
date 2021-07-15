@@ -2,9 +2,9 @@
 
 ### Objectives
 
-You must follow the same [principles]() as the first subject.
+You must follow the same [principles](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-web) as the first subject.
 
-Hangman-stylize consists on making your site :
+Hangman-stylize consists in making your site :
 
 - more appealing, interactive and intuitive.
 - more user friendly.

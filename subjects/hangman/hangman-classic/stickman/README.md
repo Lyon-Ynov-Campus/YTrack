@@ -2,9 +2,11 @@
 
 ### Objectives
 
-You must follow the same [principles]() as the first subject.
+You must follow the same [principles](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-classic) as the first subject.
 
-In hangman-stickman you must draw in the terminal the number of attemps left, represented by a stickman
+In hangman-stickman you must draw in the terminal the number of attempts left, represented by a stickman
+Each time you suggest a wrong letter or a wrong word, the stickman grows, until the scheme is done, and the man completely hanging.
+
 The final result should look like the following :
 
 ```
@@ -17,7 +19,7 @@ The final result should look like the following :
 =========
 ```
 
-Each time you guess something wrong, a part of the drawing must be revealed. You still have 10 attempts to complete the game.
+You still have 10 attempts to complete the game.
 
 ### Allowed packages
 

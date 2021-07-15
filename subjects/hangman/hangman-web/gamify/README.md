@@ -2,20 +2,20 @@
 
 ### Objectives
 
-You must follow the same [principles]() as the first subject.
+You must follow the same [principles](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-web) as the first subject.
 
-Hangman-gamify consists on making your interface more game oriented.
+Hangman-gamify consists in making your interface more game oriented.
 
-You can implements other routes to help you have differents interface representing the state of your game
+You can implement other routes to help you have other interfaces representing the state of your game
 For example:
 
 - A startup page asking for you UserName and a button to start
-- A losing or winning screen
-- A button somwhere to allow the user to play again.
+- A losing or/and winning screen
+- A button somewhere to allow the user to play again.
 - A scoreboard
-- A list of all letter suggested during the game.
+- A list of all letters suggested during the game.
 
-Those are only examples, you are free to implement any features you like that can make the project look like a real game.
+Those are only examples, you are free to implement any features you like that can make the project look better, and feel like a real game.
 
 This project will help you learn about:
 
