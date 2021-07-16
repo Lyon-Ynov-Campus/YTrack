@@ -14,6 +14,8 @@ You will need to create a public repository with the name `hangman`
 Create a program `hangman` that will take a file as parameter. 
 This file contains a bunch of words with which the program will play. Each word is separated with a newline.
 
+#### PART 1 ---
+
 You will have 10 attempts to complete the game.
 
 * First, the program will randomly choose a word in the file.
@@ -22,6 +24,32 @@ You will have 10 attempts to complete the game.
 * If the letter is not present, it will print an error message.
 * If the letter is present, it will reveal all the letters corresponding in the word.
 * The program continues until the word is either found, or the numbers of attempts is 0.
+
+#### PART 2 ---
+
+Let's name José the poor man that will be hanging to this rope if you lose.
+
+You will be given a file named `hangman.txt` that contains all the position of José. 
+This file contains 10 positions corresponding to the 10 attempts needed to complete the game.
+
+You will need to parse this file and display the appropriate position of José as the count of attemps decreases.
+
+Each position has :
+* A height of 7 lines, ending with a new line (so 8)
+* A length of 9 character, ending with a new line (so 10)
+
+Here is an example of the seventh position of José :
+
+```
+  +---+  
+  |   |  
+  O   |  
+ /|   |  
+      |  
+      |  
+=========
+
+```
 
 ### Allowed packages
 
@@ -38,9 +66,37 @@ _ E _ _ O
 
 Choose: A
 Not present in the word, 9 attempts remaining
+         
+         
+         
+         
+         
+         
+=========
+
 
 Choose: L
 _ E L L O 
+
+Choose: B
+Not present in the word, 8 attempts remaining
+         
+      |  
+      |  
+      |  
+      |  
+      |  
+=========
+
+Choose: Z
+Not present in the word, 7 attempts remaining
+  +---+  
+      |  
+      |  
+      |  
+      |  
+      |  
+=========
 
 Choose: H
 H E L L O
