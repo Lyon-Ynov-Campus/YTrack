@@ -29,7 +29,7 @@ You will have 10 attempts to complete the game.
 
 Let's name José the poor man that will be hanging to this rope if you lose.
 
-You will be given a file named `hangman.txt` that contains all the position of José. 
+You will be given a file named [hangman.txt](https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/hangman/hangman-classic/hangman.txt) that contains all the position of José. 
 This file contains 10 positions corresponding to the 10 attempts needed to complete the game.
 
 You will need to parse this file and display the appropriate position of José as the count of attemps decreases.
