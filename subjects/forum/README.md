@@ -26,12 +26,25 @@ To know more about SQLite you can check the [SQLite page](https://www.sqlite.org
 One of the goal of this project is also to gather all the knowledge acquired throughout the year. With that in mind, you will be asked to create your very first mini API.
 
 * Your Go routes must either be :
-  * Public Route: A Route that present HTML content via `html/template` golang package
+  * Public Route: A Route that present HTML content via a static html page using `http` golang package with `http.ServeFile` function.
   * "*Private*" Route: A Route that performs an action on the database or retrieves data. Then it returns a result in the response of the route *(ResponseWriter)*
   <br><br>
 * Your JavaScript will then: 
   * Call the privates routes with the `fetch` function, specifying the method and maybe the params you want to pass to your route.
   * When the route has responded, it will display the data on the page. (You can use [handleBars library](https://handlebarsjs.com/) to help you display the data dynamically)
+
+**All the templating part to display the informations dynamically souldn't be done with the package `html/template`.**
+
+Your golang is only responsible for retrieving data and requesting the Database.
+Your Javascript MUST be in charge of the rendering part, here is a few library you can look at to help you with this:
+- [HandleBars Library](https://handlebarsjs.com/)
+- [Mustach.js](https://github.com/janl/mustache.js)
+- [EJS](https://ejs.co/#install)
+
+If you are warriors and your group wants a challenge you can still look at Javascript Framework, **but be aware of what you do if you want to dive into it, it wont be easy**:
+- [Vue.js](https://vuejs.org/v2/guide/)
+- [React](https://fr.reactjs.org/)
+- [Angular](https://angular.io/docs)
 
 
 #### Authentication
@@ -58,12 +71,6 @@ In order for users to communicate between each other, they will have to be able 
 - Posts that belongs to the registered user can be edited or deleted.
 - The posts should be visible to all users (registered or not).
 - Non-registered users will only be able to see posts.
-
-#### Likes and Dislikes
-
-Only registered users will be able to like or dislike posts.
-
-The number of likes and dislikes should be visible by all users (registered or not).
 
 <!-- #### Filter
 

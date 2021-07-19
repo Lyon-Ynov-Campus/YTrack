@@ -10,6 +10,7 @@ In `forum advanced features`, you will have to implement the following features 
 
   - liked/disliked
   - commented -->
+- **Likes and Dislikes**: Only registered users will be able to like or dislike posts. The number of likes and dislikes should be visible by all users (registered or not).
 - A registered user can add comments to a post
 - All user, registered or not, can see comments
 
@@ -22,6 +23,9 @@ In `forum advanced features`, you will have to implement the following features 
   - Shows where and what the user has been commenting. For this, the comment will have to be shown, as well as the post commented
 <!-- - You have to create a section where you will be able to Edit/Remove posts and comments. -->
 - You can create a post containing an image as well as text. (max size of the images to load should be 20 mb, otherwise an error message is displayed)
+
+
+<br>
 
 We encourage you to add any other additional features that you find relevant.
 
