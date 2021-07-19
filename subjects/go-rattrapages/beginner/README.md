@@ -43,7 +43,7 @@ type Character struct {
 The goal is to create two functions that can simulate a fight between two `Characters`
 * `func ApplyDamage(c *Character, damageTaken uint)`: This function update the `Health` of the character with the `damageTaken` parameter
 * `func Attack(c1 *Character, c2 *Character)`: This function must `ApplyDamage` of the character 1 (c1) to the character 2 (c2)
-    - If `Health` of c2 reaches 0, the function displays: `[c1 name] just finished [c2 name]`. 
+    - If `IsAlive` of c2 is false, the function displays: `[c1 name] just finished [c2 name]`. 
     - Otherwise it will display: `[c1 name] make [damage] damages to [c2 name]`
     - (Of course replace the *names* by the corresponding character name, as well as the *damage*)
 

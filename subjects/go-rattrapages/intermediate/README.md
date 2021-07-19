@@ -77,3 +77,40 @@ For this you will have to create:
 
 ### Blood and Swords (3 points +)
 
+In this exercice you will need the following structures.
+
+``` golang
+type Point struct {
+	X int
+	Y int
+}
+
+type Character struct {
+    Name    string
+    Health  uint
+    Damage  int
+    IsAlive bool
+    Stamina int
+    Position Point
+}
+```
+
+Write a programm that will wait commands on the standard input. The accepted commands are:
+- LEFT
+- TOP
+- RIGHT
+- BOTTOM
+- ATTACK
+
+At the start of the program, two `Character` must be created with random positions.
+
+- For each command, the first `Character` only, will lose 1 `Stamina`.
+- For all the commands, excepted "ATTACK", the first `Character` will move it's potision by 1 according to the direction choosen in the standard input.
+- For the "ATTACK" command, the first `Character` will apply its damages to the second `Character`, only if their positions are the same.
+
+**Particular cases**
+- If the stamina reaches 0 or less, the programm will display: `I need a break...`
+- If the first `Character` try to "ATTACK" but the second is not here, it will display: `[c2 name] is not here.`
+- In the other case, refer to subject `Blood and Guts` (first part), and reproduce the behavior of the `Attack` function.
+
+**Bonus**: Design your own commands, error messages, interfaces or more ! Your free to do whatever you want and earn more points 😉
