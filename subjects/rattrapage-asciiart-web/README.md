@@ -1,4 +1,4 @@
-## Rattrapage Ascii-Art-Web
+## Dummy Login
 
 ### Barème:
 - Tests d'entrée / sortie: 10 points
