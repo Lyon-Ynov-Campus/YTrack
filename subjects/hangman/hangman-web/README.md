@@ -2,6 +2,12 @@
 
 Hangman-web consists in creating and running a server, in which it will be possible to use a web GUI (graphical user interface) version of your last project, hangman-classic.
 
+## Go Module
+
+- [Go Module] (https://golang.org/doc/tutorial/create-module)
+You must use a go module to call your functions from hangman-classic.
+You should not copy/paste or rewrite then in this new hangman-web project.
+
 You will need to create a private repository with the name `hangman-web`
 
 ### Notions
