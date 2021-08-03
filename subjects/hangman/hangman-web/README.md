@@ -1,8 +1,8 @@
 ## hangman-web
 
-Hangman-web consists in creating and running a server, in which it will be possible to use a web GUI (graphical user interface) version of your last project, hangman.
+Hangman-web consists in creating and running a server, in which it will be possible to use a web GUI (graphical user interface) version of your last project, hangman-classic.
 
-You will need to create a public repository with the name `hangman-web`
+You will need to create a private repository with the name `hangman-web`
 
 ### Notions
 - [Golang Documentation: net](https://golang.org/pkg/net/)
@@ -13,8 +13,8 @@ You will need to create a public repository with the name `hangman-web`
 
 ### Objectives
 
-Create a program `hangman-web` that will take a file as parameter. 
-This file contains a bunch of words with which the program will play. Each word is separated with a newline.
+Create a program `hangman-web` that will take a file as parameter `words.txt`. 
+Create a file `words.txt` witch contains a bunch of words with which the program will play. Each word is separated with a newline.
 
 The behavior of the game is the same as the [hangman project](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-classic), refers to it for more details.
 
@@ -34,12 +34,14 @@ The main page must have at least:
 ### Allowed packages
 
 - Only the [standard go](https://golang.org/pkg/) packages are allowed
+- No use **Framework HTML/CSS**
 
 ### Instructions
 
 - HTTP server must be written in _Go_.
 - HTML templates must be in project root directory _templates_.
 - The code must respect the [good practices](https://public.01-edu.org/subjects/good-practices/).
+- Use [Part 2 of hangman-classic] (https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-classic).
 
 ### Usage
 
