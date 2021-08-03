@@ -6,7 +6,7 @@ Hangman-web consists in creating and running a server, in which it will be possi
 
 - [Go Module] (https://golang.org/doc/tutorial/create-module)
 You must use a go module to call your functions from hangman-classic.
-You should not copy/paste or rewrite then in this new hangman-web project.
+You should not copy/paste or rewrite them in this new hangman-web project.
 
 You will need to create a private repository with the name `hangman-web`
 
@@ -20,7 +20,7 @@ You will need to create a private repository with the name `hangman-web`
 ### Objectives
 
 Create a program `hangman-web` that will take a file as parameter `words.txt`. 
-Create a file `words.txt` witch contains a bunch of words with which the program will play. Each word is separated with a newline.
+Create a file `words.txt` which contains a bunch of words with which the program will play. Each word is separated with a newline.
 
 The behavior of the game is the same as the [hangman project](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-classic), refers to it for more details.
 
