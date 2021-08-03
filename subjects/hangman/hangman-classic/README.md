@@ -11,7 +11,7 @@ You will need to create a private repository with the name `hangman-classic`
 ### Instructions
 
 Create a program `hangman` that will take a file as parameter. 
-Create a file `words.txt` witch contains a bunch of words with which the program will play. Each word is separated with a newline `\n`.
+Create a file `words.txt` which contains a bunch of words with which the program will play. Each word is separated with a newline `\n`.
 
 #### PART 1 ---
 
