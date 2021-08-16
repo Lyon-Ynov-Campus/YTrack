@@ -6,6 +6,7 @@
 - [Golang Documentation: ioutil](https://golang.org/pkg/ioutil/)
 - [Read/Write file golang](https://tutorialedge.net/golang/reading-writing-files-in-go/)
 - [Go example: os Arg](https://gobyexample.com/command-line-arguments)
+- [Golang Documentation: flag] (https://pkg.go.dev/flag)
 
 ### Objectives
 
@@ -16,9 +17,9 @@ In hangman-start-and-stop have to create a way to stop the game and save the pro
 You must:
 * Implement a keyword `STOP` in the standard input.
   * It will stop and exit the game.
-  * It will save the status of the game in a file. The data in the file must be encoded with `json.Marshal`
+  * It will save the status of the game in a file `save.txt`. The data in the file must be encoded with `json.Marshal`
 
-* Handle a parameter `--startWith save.txt` in the command line, that allow you to launch the game with the file you saved with `STOP` command.
+* Handle a **flag** `--startWith save.txt` in the command line, that allow you to launch the game with the file you saved with `STOP` command.
 The file will be decoded with `json.UnMarshal`
 
 This project will help you learn about:
