@@ -2,17 +2,16 @@
 
 This project is based on the famous HangMan Game
 
-You will need to create a public repository with the name `hangman`
+You will need to create a private repository with the name `hangman-classic`
 
 ### Notions
-- [Golang Documentation: net](https://golang.org/pkg/net/)
 - [Golang Documentation: ioutil](https://golang.org/pkg/ioutil/)
 - [Golang Documentation: rand](https://golang.org/pkg/math/rand/)
 
 ### Instructions
 
 Create a program `hangman` that will take a file as parameter. 
-This file contains a bunch of words with which the program will play. Each word is separated with a newline.
+Create a file `words.txt` which contains a bunch of words with which the program will play. Each word is separated with a newline `\n`.
 
 #### PART 1 ---
 
@@ -21,7 +20,7 @@ You will have 10 attempts to complete the game.
 * First, the program will randomly choose a word in the file.
 * The programm will reveal `n` random letters in the word, where `n` is the `len(word) / 2 - 1`
 * The program will read the standard input to suggest a letter.
-* If the letter is not present, it will print an error message.
+* If the letter is not present, it will print an error message and the number of attempts decreases (10->9->...0)
 * If the letter is present, it will reveal all the letters corresponding in the word.
 * The program continues until the word is either found, or the numbers of attempts is 0.
 
