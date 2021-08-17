@@ -7,12 +7,14 @@ You must follow the same [principle](https://github.com/Lyon-Ynov-Campus/YTrack/
 Ascii-art is a program which consists in receiving a string in the standar input and outputting the string in a graphic representation using ASCII. **Time to write big !!**.
 
 What we mean by a graphic representation using ASCII, is to write the string received using ASCII characters, as you can see in the example below:
-
-    ██   ██ ███████ ██      ██       ██████      ██ 
-    ██   ██ ██      ██      ██      ██    ██     ██ 
-    ███████ █████   ██      ██      ██    ██     ██ 
-    ██   ██ ██      ██      ██      ██    ██        
-    ██   ██ ███████ ███████ ███████  ██████      ██ 
+```
+     _    _   ______   _        _         ____
+    | |  | | |  ____| | |      | |       / __ \
+    | |__| | | |__    | |      | |      | |  | |
+    |  __  | |  __|   | |      | |      | |  | |
+    | |  | | | |____  | |____  | |____  | |__| |
+    |_|  |_| |______| |______| |______|  \____/
+```
                                                 
 ## Instructions
 * Your project must be written in Go.
