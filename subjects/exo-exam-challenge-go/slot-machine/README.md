@@ -25,7 +25,7 @@ func Analyze(slot [][]int) int {}
 
 Cette fonction doit : 
 * Analyser le tableau et identifier les lignes gagnantes
-* Calculer et renvoyer la somme gagné lors de cette partie
+* Calculer et renvoyer la somme gagnéelors de cette partie
 
 #### STEP 2
 
@@ -36,7 +36,7 @@ Créer vos tableaux afin de tester votre programme.
 ### A SAVOIR
 
 * La machine sera forcément un carré de taille comprise entre 3 et `n`
-* Les symboles présent dans la machine seront entre 1 et 3
+* Les symboles présents dans la machine seront 1,2 et 3
 
 **Imports autorisés**: fmt, math/rand
 
