@@ -8,7 +8,7 @@ Pour cela vous recevrez une machine de taille `n`, et les lignes gagnantes seron
 
 ![exemple](https://i.imgur.com/ohMHijy.png)
 
-Si une ligne est valide soit 3 symbole identique, vous devrez alors faire la somme des lignes gagnantes comme dans l'exemple suivant :
+Si une ligne est valide, soit 3 symboles identiques, vous devrez alors faire la somme des lignes gagnantes comme dans l'exemple suivant :
 
 ![exemple](https://i.imgur.com/9fzSPYq.png)
 
