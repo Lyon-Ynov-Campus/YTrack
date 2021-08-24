@@ -2,9 +2,9 @@
 
 ## Instructions
 
-Le but de cet exercice est d'analyser les lignes gagnantes d'une machine à sous, et de renvoyer la somme des lignes gagnantes.
+Le but de cet exercice est d'analyser les lignes gagnantes d'une machine à sous, et de renvoyer la somme de ces lignes.
 
-Pour cela vous receverez une machine de taille `n`, et les lignes gagnantes seront les suivantes :
+Pour cela vous recevrez une machine de taille `n`, et les lignes gagnantes seront les suivantes :
 
 ![exemple](https://i.imgur.com/ohMHijy.png)
 
