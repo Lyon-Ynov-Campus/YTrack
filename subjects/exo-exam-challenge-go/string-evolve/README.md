@@ -2,12 +2,12 @@
 
 ## Instructions
 
-le but de l'exercice est de modifier la chaine de caractere selon la ponctuation.
+Le but de l'exercice est de modifier la chaine de caractere selon la ponctuation.
 
-Pour se faire,
-vous devez mettre en majuscule les partie de la chaine dont la ponctuation est un !
-vous devez renverser les partie de la chaine dont la ponctuation est un ?
-vous devez mettre en majuscule la premiere lettre dont les partie de la chaine se terminent par un .
+Pour ce faire vous devez:
+- Mettre en majuscule les parties de la chaine qui précèdent un `!`
+- Renverser les parties de la chaine qui précèdent un `?`
+- Mettre en majuscule la premiere lettre dont les parties de la chaine se terminent par un `.`
 
 ```
 bonjour! => BONJOUR!
@@ -20,22 +20,21 @@ bonjour! ca va? oui. => BONJOUR!av ac ? Oui.
 
 #### STEP 1
 
-Créer une fonction `StringEvolve` recevant une string que vous devrez modifier a l'aide de votre programe, l'output sera une ``string`` qui sera le reultat attendu de la string principal modifier.
-
+Créer une fonction `StringEvolve` recevant une string en paramètre que vous devrez modifier à l'aide de votre programme.L'output sera une `string` modifié selon les règles énoncées ci-dessus.
 
 ``` golang
 func StringEvolve(s string) string {}
 ```
 
 Cette fonction doit : 
-* Gérer tout les caracters ascii (man ascii dans le terminal)
-* Doit garder les ponctuations a l'index ou ils sont placés
+* Gérer tout les caractères ascii (man ascii dans le terminal)
+* Doit garder les ponctuations à l'index ou elles sont placées
 
 #### STEP 2
 
-Testez votre programe.
+Testez votre programme.
 
-```
+``` golang
 // Dans la fonction main
 
 StringEvolve("bonjour! comment va tu! ca va!") // BONJOUR! COMMENT VA TU! CA VA!
@@ -53,7 +52,7 @@ StringEvolve("dfgndvnb?dsfhg?gdqs.  sfgsgf!fsd gb!") // bnvdngfd?ghfsd?Gdqs.  SF
 
 ### A SAVOIR
 
-* Pour le `?` tout les caractere doivent etre inverser y compris les espaces
-* Vous ne devez pas gere les cas speciau nous ne teston que des chose coerante (type test du dessus)
+* Pour le `?` tout les caractères doivent être inversés y compris les espaces (voir 7ème test)
+* Vous ne devez pas gérer les cas spéciaux nous ne testons que des choses cohérentes (type test du dessus)
 
 **Imports autorisés**: fmt, string.split
