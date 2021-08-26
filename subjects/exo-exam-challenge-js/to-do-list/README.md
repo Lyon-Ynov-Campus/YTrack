@@ -17,19 +17,19 @@ Vous devrez créer des task dans le format suivant : <br>
 </div>
 ```
 
-Ces task devront être créer dans la `div` prévu à cet effet dans le fichier fournit:
+Ces task devront être créer dans la `div` prévue à cet effet dans le fichier fournit:
 ```html
 <div id="tasklist"></div>
 ```
 
-Si la `checkbox` est coché la task doit être supprimé
+Si la `checkbox` est cochée la task doit être supprimée.
 
 
 <br>
 
 ## ⚠️Attention⚠️
 
-* Vous pouvez ajouter 
+* Vous pouvez modifier l'html, attention à bien respecter les consignes
 * Si aucun texte n'est écrit aucune task ne doit se créer.
 * Le fichier js principal sera nommé ``to-do-list.js``
 
