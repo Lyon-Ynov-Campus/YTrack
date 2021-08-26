@@ -10,7 +10,7 @@ C'est a dire qu'il devra se déplacer sur l'écran et aller dans la direction op
 
 Dès qu'il heurtera un bord il devra changer de couleur.
 
-La page `html` sera fournit.
+La page `html` sera fournie.
 
 <br>
 
