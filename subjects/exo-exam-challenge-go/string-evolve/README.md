@@ -57,6 +57,3 @@ StringEvolve("dfgndvnb?dsfhg?gdqs.  sfgsgf!fsd gb!") // bnvdngfd?ghfsd?Gdqs.  SF
 * Vous ne devez pas gere les cas speciau nous ne teston que des chose coerante (type test du dessus)
 
 **Imports autorisés**: fmt, string.split
-
-### ⚠️ Attention ⚠️
-Ne rendre que la fonction `StringEvolve` <br>
