@@ -1,10 +1,10 @@
 ## Introduction
 
-### Instructions
-
 ### Recommendation
 
 Videos designed to give **hints** are assigned to each quest or each notions. It is strongly suggested to watch them as you go.
+
+### Instructions
 
 #### 1- get-ready
 
@@ -33,7 +33,10 @@ This command needs to be adapted with **your own username**.
 #### 2- set
 
 - Once the repository is created, create a module golang at the root with the command: 
-`go mod init ((ROOT))` 
+`go mod init piscine`
+
+- Create a main folder with a `main.go` file where you will test your functions
+`mkdir main && touch main.go`
 
 - Download z01 package for the rest of your challenge:
 `go get github.com/01-edu/z01`

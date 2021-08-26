@@ -21,9 +21,32 @@ Vous devrez faire bouger l'élément suivant:
 <div id="Objdvd"></div>
 ```
 
+Pour cela vous utiliserez :
+```js
+requestAnimationFrame()
+```
+
+__Use:__
+```js
+    function Exemple(){
+        //
+        //
+        //
+        requestAnimationFrame(Exemple)
+    }
+
+    requestAnimationFrame(Exemple)
+```
+
 <br>
 
 ## STEP 2
+
+Récupérer la taille de l'écran :
+```js
+window.innerHeight;
+window.innerWidth;
+```
 
 Lorsque l'objet recontre un bord haut/bas:
 * incrémenter ou décrémenter la position ``y``.
