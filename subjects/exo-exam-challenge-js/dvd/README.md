@@ -6,7 +6,7 @@
 
 Lors de cet exercice vous devrez recréer l'écran de veille d'un lecteur DVD.
 
-C'est a dire qu'il devra se déplacer sur l'écran et aller dans la direction opposée lorsque qu'il en rencontre le bord.
+C'est à dire qu'il devra se déplacer sur l'écran et aller dans la direction opposée lorsque qu'il en rencontre le bord.
 
 Dès qu'il heurtera un bord il devra changer de couleur.
 
@@ -39,6 +39,7 @@ Lorsque l'objet rencontre un bord gauche ou droite:
 
 * Vous pouvez modifier l'html, attention à bien respecter les consignes
 * La taille de l'objet est de 300x300px
+* Si la taille de la fenêtre est réduite le comportement de l'objet doit s'adpater.
 * Le fichier js principal sera nommé ``dvd.js``
 
 

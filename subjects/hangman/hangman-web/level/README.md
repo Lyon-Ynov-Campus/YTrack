@@ -4,20 +4,22 @@
 
 You must follow the same [principles](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-web) as the first subject.
 
-Hangman-level consists in add difficult for your site :
+Hangman-level consists in adding difficulties to your website :
+You need to implement a dedicated page at the start of your game that allows the user to choose between the following difficulties
 
-- EASY is file words.txt.
-- NORMAL is file words2 .txt.
-- HARD is file words3.txt.
+- EASY: is file words.txt.
+- NORMAL: is file words2 .txt.
+- HARD is: file words3.txt.
 
-Do a form and a button submit for accept the difficulty and begin the game.
+You can find these three files [here](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/dictionnary)
+
+Your page must contain a form that is made up of a select input or radio input.
 
 This project will help you learn about:
 
-- 
-- 
-- 
-- 
+- Form Manipulation in Golang
+- Changing filename to open
+- Implement differents routes
 
 ### Allowed packages
 
