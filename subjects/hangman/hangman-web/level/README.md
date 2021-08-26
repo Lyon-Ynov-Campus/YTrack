@@ -1,20 +1,23 @@
-## hangman-web-stylize
+## hangman-web-level
 
 ### Objectives
 
 You must follow the same [principles](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-web) as the first subject.
 
-Hangman-stylize consists in making your site :
+Hangman-level consists in add difficult for your site :
 
-- more appealing, interactive and intuitive.
-- more user friendly.
-- give more feedback to the user.
+- EASY is file words.txt.
+- NORMAL is file words2 .txt.
+- HARD is file words3.txt.
+
+Do a form and a button submit for accept the difficulty and begin the game.
 
 This project will help you learn about:
 
-- The basics of human-computer interface.
-- The basics of CSS.
-- Linking CSS and HTML.
+- 
+- 
+- 
+- 
 
 ### Allowed packages
 
