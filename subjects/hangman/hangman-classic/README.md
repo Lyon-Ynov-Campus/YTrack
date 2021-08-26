@@ -7,11 +7,12 @@ You will need to create a private repository with the name `hangman-classic`
 ### Notions
 - [Golang Documentation: ioutil](https://golang.org/pkg/ioutil/)
 - [Golang Documentation: rand](https://golang.org/pkg/math/rand/)
+- [Reading File Example](https://zetcode.com/golang/readfile/)
 
 ### Instructions
 
 Create a program `hangman` that will take a file as parameter. 
-Create a file `words.txt` which contains a bunch of words with which the program will play. Each word is separated with a newline `\n`.
+Create a file `words.txt` which contains a bunch of words with which the program will play. Each word is separated with a newline `\n`. Or you can find differents dictionnaries [here](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/dictionnary)
 
 #### PART 1 ---
 
@@ -28,7 +29,7 @@ You will have 10 attempts to complete the game.
 
 Let's name José the poor man that will be hanging to this rope if you lose.
 
-You will be given a file named [hangman.txt](https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/hangman/hangman-classic/hangman.txt) that contains all the position of José. 
+You will be given a file named [hangman.txt](https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/hangman/hangman.txt) that contains all the position of José. 
 This file contains 10 positions corresponding to the 10 attempts needed to complete the game.
 
 You will need to parse this file and display the appropriate position of José as the count of attemps decreases.
