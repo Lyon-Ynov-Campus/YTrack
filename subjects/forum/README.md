@@ -6,7 +6,6 @@ This project consists in creating a web forum that allows :
 
 - communication between users.
 - associating categories to posts.
-- liking and disliking posts.
 - filtering posts.
 
 #### SQLite
@@ -32,6 +31,30 @@ One of the goal of this project is also to gather all the knowledge acquired thr
 * Your JavaScript will then: 
   * Call the privates routes with the `fetch` function, specifying the method and maybe the params you want to pass to your route.
   * When the route has responded, it will display the data on the page. (You can use [handleBars library](https://handlebarsjs.com/) to help you display the data dynamically)
+
+**Example**
+``` javascript
+fetch("/routeName", {
+  method: "POST", // or GET
+  headers: {
+    "content-type": "application/json"
+  },
+  body: JSON.stringify({
+    // Data you want to pass to your route
+  })
+})
+.then((res) => res.json()) // Transforming the result to JSON object format to handle it easily
+.then((data) => {
+  // HERE is the code you want to do to handle the data
+  // Maybe
+  // Display HTML content
+  // Transorms data
+  // ...
+})
+.catch((err) => {
+  // Handle error cases
+})
+```
 
 **All the templating part to display the informations dynamically souldn't be done with the package `html/template`.**
 
@@ -63,9 +86,9 @@ Instructions for user registration:
 
 The forum must be able to check if the email provided is present in the database and if all credentials are correct. It will check if the password is the same with the one provided and, if the password is not the same, it will return an error response.
 
-#### Communication
+#### Posting
 
-In order for users to communicate between each other, they will have to be able to create posts.
+In order for users to interact with the forum, they will able to create posts.
 
 - Only registered users will be able to create posts.
 - Posts that belongs to the registered user can be edited or deleted.
