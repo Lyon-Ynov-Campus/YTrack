@@ -1,11 +1,17 @@
 ## hangman-web-bring-to-death
 
+### Notions:
+[Golang Documentation: html/template](https://pkg.go.dev/html/template)
+[Go example: Basic template](https://gowebexamples.com/templates/)
+
 ### Objectives
 
 You must follow the same [principles](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-web) as the first subject.
 
 Hangman-bring-to-death consists in making a stick-man, representing the attempts you have left. Just like in the real hangman game.
 Each time you suggest a wrong letter or a wrong word, the stick-man grows, until the scheme is done, and the man completely hanging.
+
+* You **MUST** use golang template for this project to help you display the different parts of the stickman accoring to the number of attempts left.
 
 ### Usage
  
