@@ -28,7 +28,7 @@ Create a program `clientTCP` that will take 3 parameters at the start
 * The program will read an user input as command
   * Command must begin with "/"
   * Display an error if the command didn't begin with "/"
-  * All the CSS command will work and being display on the web page.
+  * All the CSS commands will work and being display on the web page.
 * The program will send the user input to the server
 * The programm will allow to send several input without restarting the client
 
