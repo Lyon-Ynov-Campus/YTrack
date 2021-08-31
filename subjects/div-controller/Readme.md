@@ -1,4 +1,4 @@
-# Go-WebSocket
+# div-controller
 This project is based on the use of TCP socket
 
 This project is provided with a server and you have to make the client !  
