@@ -42,7 +42,7 @@ The first one allow you to disable the console input buffer and therefore to not
 The second one allow you to not display your entered character on the screen  
 the last one allow you to restore the initial console. this one has to be used when you leave your function or program otherwise you will not be able to see what you wrote on the console
 
-This part will allow you to move your div in real time
+This part will allow you to move your div in real time  
 For this part you will had to :
 * Indicate to users to use "Z Q S D" to move their div
 * Execute the commands provided above
