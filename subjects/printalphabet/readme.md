@@ -27,6 +27,6 @@ $
 ### Notions
 
 - [01-edu/z01](https://github.com/01-edu/z01)
-- [ascii table](https://www.asciitable.com/)
+- [ascii table](https://man7.org/linux/man-pages/man7/ascii.7.html)
 
 
