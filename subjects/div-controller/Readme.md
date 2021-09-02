@@ -21,10 +21,12 @@ Create a program `clientTCP` that will take 3 parameters at the start
 * Third: Connexion type
 
 ## Part 1---
-* First, the program must connect to the server provided in parameters
+* First, the program must connect to the server provided in parameters (cf: Net package documentation)
 * The program will display an error if the connection has failed
-* The program must display a menu like so:
-```
+* Try to send this command to the server `/backgroundColor red` (cf: Net package documentation)
+
+> **Note**: The client must constantly read the user input in a loop. Otherwise the connection will be interupted, you will have to rerun the server and the client.
+<!-- ```
 Connecting to tcp server localhost:8080
 
 Menu ------
@@ -33,7 +35,7 @@ Menu ------
 [3] : Exit
 
 Choose an option:
-```
+``` -->
 
 ## Part 2---
 * The program will read the user input as commands
