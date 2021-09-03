@@ -33,17 +33,17 @@ socket.onopen = function (event) {
 
 //Receive message event from server
 socket.onmessage = function (event) {
-    if(event.data == 'z\n'){
+    if(event.data == '\u001b[A\n'){
         console.log(shape.style.top, y);
         y += -2;
         shape.style.top = y;
-    } else if(event.data == 's\n'){
+    } else if(event.data == '\u001b[B\n'){
         y += 2
         shape.style.top = y;
-    } else if(event.data == 'q\n'){
+    } else if(event.data == '\u001b[D\n'){
         x += -2;
         shape.style.left = x;
-    } else if(event.data == 'd\n'){
+    } else if(event.data == '\u001b[C\n'){
         x += 2;
         shape.style.left = x;
     } else {
