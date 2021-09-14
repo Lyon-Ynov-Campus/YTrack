@@ -63,7 +63,7 @@ After that the `hello.sh` is executing correctly, it needs to be uploaded to the
 
 1. `git add hello.sh go.mod`
 2. `git commit -m "My very first commit"`
-3. `git push`
+3. `git push origin master`
 
 Once these steps are applied, the file can now be submitted for grading on the platform by clicking on the "RUN INTRODUCTION TEST" button.
 
