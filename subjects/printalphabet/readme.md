@@ -11,9 +11,17 @@ A line is a sequence of characters preceding the [end of line](https://en.wikipe
 ### Import
 
 ```console
+package main
+
 import (
 	"github.com/01-edu/z01"
 )
+```
+
+Here is how to print one character:
+
+``` golang
+z01.PrintRune('a')
 ```
 
 ### Usage
