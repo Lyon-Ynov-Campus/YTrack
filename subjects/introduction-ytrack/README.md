@@ -36,7 +36,7 @@ This command needs to be adapted with **your own username**.
 `go mod init piscine`
 
 - Create a main folder with a `main.go` file where you will test your functions
-`mkdir main && touch main.go`
+`mkdir main && cd main && touch main.go`
 
 - Download z01 package for the rest of your challenge:
 `go get github.com/01-edu/z01`
