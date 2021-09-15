@@ -16,27 +16,35 @@ Once created, clone that repository on your desktop.
 
 To do so, open a Unix shell (e.g. Git Bash on Windows), you are going to type commands in it.
 
-First, tell Git to remember your password (like a web browser would):
-
-```
-git config --global credential.helper store
-```
-
 If your username was `choumi` this is the command that will need to be used:
 
 ```
 git clone https://git.((DOMAIN))/choumi/((ROOT)).git
 ```
 
-This command needs to be adapted with **your own username**.
+Then, tell Git to remember your password (like a web browser would):
+
+```
+git config --global credential.helper store
+```
+
+Theses commands needs to be adapted with **your own username**.
 
 #### 2- set
 
 - Once the repository is created, create a module golang at the root with the command: 
 `go mod init piscine`
 
-- Create a main folder with a `main.go` file where you will test your functions
-`mkdir main && cd main && touch main.go`
+- Create a main folder with a `main.go` file where you will test your functions. In the `main.go` paste the following code
+
+``` golang
+package main
+
+func main() {
+
+}
+```
+<!-- `mkdir main && cd main && touch main.go` -->
 
 - Download z01 package for the rest of your challenge:
 `go get github.com/01-edu/z01`
