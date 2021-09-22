@@ -34,7 +34,7 @@ Interface will be make with winform and it can look like what you want
 
 ## Part 2-- Game
 Here, is where users will scoring at your game  
-Where starting ?
+Where to start ?
 ### Drawing--  
 First, you had to make a grid in your interface, its here where users will play. you had to use elements in winform to make it. This grid will allow you to :
 * Manage colisions
