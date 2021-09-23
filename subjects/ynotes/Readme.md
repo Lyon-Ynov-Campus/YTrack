@@ -21,7 +21,8 @@ The project consists in creating a school life php website that allow to :
 
 ## SQL 
 You have to make a data base to manage students, teachers, admin, planning, etc...   
-Your free to use what you want for your data base but we recommand to use SQLite
+Your free to use what you want for your data base except SQLite
+(you can use MySQL, NoSQL ect..)
 
 ## Authentification 
 In this segment you must be able to `register` a student or a teacher from the admin panel.   
