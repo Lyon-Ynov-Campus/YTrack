@@ -13,7 +13,7 @@ The project consists in creating an e-commerce website that allow to :
 ## Notions
 [PHP Documentation : $_GET](https://www.php.net/manual/en/reserved.variables.get.php)  
 [PHP Documentation : $_POST](https://www.php.net/manual/en/reserved.variables.post.php)   
-[PHP Documentation : $_SESSION](https://www.php.net/manual/en/reserved.variables.session.php)
+[PHP Documentation : $_SESSION](https://www.php.net/manual/en/reserved.variables.session.php)   
 [PHP Documentation : Mail](https://www.php.net/manual/en/function.mail.php)
 
 ### Querry Notions
