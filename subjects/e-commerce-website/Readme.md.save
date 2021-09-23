@@ -1,3 +1,61 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # E-Commerce Website
 
 ## Objectives
@@ -13,7 +71,7 @@ The project consists in creating an e-commerce website that allow to :
 ## Notions
 [PHP Documentation : $_GET](https://www.php.net/manual/en/reserved.variables.get.php)  
 [PHP Documentation : $_POST](https://www.php.net/manual/en/reserved.variables.post.php)   
-[PHP Documentation : $_SESSION](https://www.php.net/manual/en/reserved.variables.session.php)   
+[PHP Documentation : $_SESSION](https://www.php.net/manual/en/reserved.variables.session.php)
 [PHP Documentation : Mail](https://www.php.net/manual/en/function.mail.php)
 
 ### Querry Notions
@@ -22,8 +80,7 @@ The project consists in creating an e-commerce website that allow to :
 
 ## SQL
 You have to make a data base to manage users, carts, products etc...   
-Your free to use what you want for your data base except SQLite
-(you can use MySQL, NoSQL ect..)
+Your free to use what you want for your data base but we recommand to use SQLite
 
 ## Authentification
 In this segment you must be able to `register` as a new user on the website, by inputting their credentials. You also have to create a login session to access the website and be able to buy.
