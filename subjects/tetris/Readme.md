@@ -74,7 +74,7 @@ Heres the elements you had to put in your game :
 Here you can add what you want to configure your game
 
 ## Bonus part
-Its an optional part
+Its an optional part   
 here is a list of possibilities you can add to your game :
 - Save your current game and load it
 - Make an animation for the menu with a tetris playing alone randomly
