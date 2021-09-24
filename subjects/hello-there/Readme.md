@@ -98,6 +98,8 @@ executed.
 >
 > In doubt, `console.log` everything, don't be shy, they are for free.
 
+Once you are here call one of us to help you submit your work !
+
 ### Instructions
 
 Once you have installed and configured the necessary tools,
