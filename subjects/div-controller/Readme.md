@@ -64,6 +64,10 @@ line := bufio.ReadLine()
 
 ## Part 3 --- Move
 In this part you will need to read the user input each 3 bytes in order to catch the arrow keys.
+> ```os.Stdin.Read...``` 
+>
+> check [os](https://pkg.go.dev/os) library
+
 It will allow you to move the div in real time on the server.
 
 The following lines of code will help you perform this mode, use them when needed:  
@@ -85,7 +89,9 @@ For this part you will have to :
 
 ## Part 4 --- Menu
 - Finally you should provide a way in your program to choose the mode you want. (a menu at the start for example)
-- You should also implement a feature that allow you to go back to the menu, to switch the mode (a choosen key on the keyboard can do the trick). 
+- You should also implement a feature that allow you to go back to the menu, to switch the mode (a choosen key on the keyboard can do the trick).
+    - **Mode 1**: `Ctrl+A` or `q` can do the trick.
+    - **Mode 2**: A certain command would work: `/leave` for example
 
 **Example:**
 ```

@@ -7,6 +7,7 @@ import (
 	"net"
 	"net/http"
 	"os"
+	"strconv"
 
 	"github.com/gorilla/websocket"
 )
@@ -42,8 +43,10 @@ func newServer() Server {
 }
 
 func (server *Server) startConnection() {
-	fmt.Println("Starting " + connType + " server on " + connHost + ":" + connPort)
+	a, err := strconv.Atoi(connPort)
+	fmt.Printf("\nWeb page is displaying on %s:%d, go check it !\nStarting tcp server on %s:%s. This is where your client must be connected.\n", connHost, a-1, connHost, connPort)
 	//Listen connection
+	//a := strconv.Itoa(connPort)
 	l, err := net.Listen(connType, connHost+":"+connPort)
 	server.error(err)
 	server.Listener = l
@@ -128,10 +131,16 @@ func webSocket() {
 		http.ServeFile(w, r, "websockets.html") //associate page
 	})*/
 
-	http.ListenAndServe(":8080", mux)
+	a, _ := strconv.Atoi(connPort)
+	a--
+	http.ListenAndServe(":"+strconv.Itoa(a), mux)
 }
 
 func main() {
+	// if len(os.Args) != 3 {
+	// 	fmt.Println("The server needs to know its host and its port to start.\nUsage: go run server.go [host] [port].")
+	// 	return
+	// }
 	go webSocket()
 	newServer()
 }
