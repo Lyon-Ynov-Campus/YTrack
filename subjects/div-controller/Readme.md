@@ -105,6 +105,15 @@ Menu ------
 Choose an option:
 ``` 
 
+<br>
+
+# Part 5 --- Bonus
+- Modify the server so that you can be able to insert text into the div !
+- You will need to type `/innerText the text you want to write in the div`, while you are in **Mode 2** (Config div)
+
+> `/innerText` is not a CSS command, it won't work like a charm without modifying the server a little bit.
+
+GOOD LUCK !
 
 ### Allowed packages
 * Only the [standard go](https://pkg.go.dev/std) packages are allowed
@@ -146,10 +155,3 @@ Server side :
     [::1]:51854 sent: 
     [::1]:51854 sent: 
     [::1]:51854 sent: 
-
-
-
-
-
-
-    
