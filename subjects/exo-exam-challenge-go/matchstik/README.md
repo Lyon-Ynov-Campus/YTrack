@@ -1,6 +1,6 @@
 ## Matchstick
 
-Le but de cet exercice est de réaliser un mini jeu d'allumettes où vous jouerez contre une Intelligence Artificielle. Le but du jeu est d'être le dernier à retirer la dernière allumette.
+Le but de cet exercice est de réaliser un mini jeu d'allumettes où vous jouerez contre une Intelligence Artificielle. Le but du jeu est de ne pas être le dernier à retirer la dernière allumette.
 
 ### Notions
 

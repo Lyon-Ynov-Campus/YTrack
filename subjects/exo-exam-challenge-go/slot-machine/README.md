@@ -25,12 +25,21 @@ func Analyze(slot [][]int) int {}
 
 Cette fonction doit : 
 * Analyser le tableau et identifier les lignes gagnantes
-* Calculer et renvoyer la somme gagnéelors de cette partie
+* Calculer et renvoyer la somme gagnée lors de cette partie
 
 #### STEP 2
 
 Créer vos tableaux afin de tester votre programme.
 
+<span style="background-color: red">Vous ne devez pas générer alétoirement un tableau</span>
+
+**Exemple:**
+
+``` golang
+slotcase := [][]int{{1, 1, 1}, {2, 1, 3}, {3, 2, 1}}
+
+Analyze(slotcase) // Cela devrait retourner 6
+```
 
 
 ### A SAVOIR
