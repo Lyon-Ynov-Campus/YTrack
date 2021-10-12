@@ -43,8 +43,8 @@ StringEvolve("dfgndvnb!dsfhg!gdqs!  sfgsgf!fsd gb!") // DFGNDVNB!DSFHG!GDQS!  SF
 StringEvolve("bonjour? comment va tu? ca va?") // ruojnob?ut av tnemmoc ?av ac ?
 StringEvolve("dfgndvnb?dsfhg?gdqs?  sfgsg?fsd gb?") // bnvdngfd?ghfsd?sqdg?gsgfs  ?bg dsf?
 
-StringEvolve("drg.sdhsd.gdhsqhg.") // Drg.sdhsd.gdhsqhg.
-StringEvolve("qerg.dqhr.dqhfg.dqf..") // Qerg.dqhr.dqhfg.dqf..
+StringEvolve("drg.sdhsd.gdhsqhg.") // Drg.Sdhsd.Gdhsqhg.
+StringEvolve("qerg.dqhr.dqhfg.dqf..") // Qerg.Dqhr.Dqhfg.Dqf..
 
 StringEvolve("bonjour! comment va tu? ca va.") // BONJOUR!ut av tnemmoc ? Ca va.
 StringEvolve("dfgndvnb?dsfhg?gdqs.  sfgsgf!fsd gb!") // bnvdngfd?ghfsd?Gdqs.  SFGSGF!FSD GB!
