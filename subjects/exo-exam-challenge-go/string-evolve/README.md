@@ -34,21 +34,21 @@ Cette fonction doit :
 
 Testez votre programme.
 
-
+```
 // Dans la fonction main
 
-`StringEvolve("bonjour! comment va tu! ca va!") // BONJOUR! COMMENT VA TU! CA VA!`
-`StringEvolve("dfgndvnb!dsfhg!gdqs!  sfgsgf!fsd gb!") // DFGNDVNB!DSFHG!GDQS!  SFGSGF!FSD GB!`
+StringEvolve("bonjour! comment va tu! ca va!") // BONJOUR! COMMENT VA TU! CA VA!
+StringEvolve("dfgndvnb!dsfhg!gdqs!  sfgsgf!fsd gb!") // DFGNDVNB!DSFHG!GDQS!  SFGSGF!FSD GB!
 
-`StringEvolve("bonjour? comment va tu? ca va?") // ruojnob?ut av tnemmoc ?av ac ?`
-`StringEvolve("dfgndvnb?dsfhg?gdqs?  sfgsg?fsd gb?") // bnvdngfd?ghfsd?sqdg?gsgfs  ?bg dsf?`
+StringEvolve("bonjour? comment va tu? ca va?") // ruojnob?ut av tnemmoc ?av ac ?
+StringEvolve("dfgndvnb?dsfhg?gdqs?  sfgsg?fsd gb?") // bnvdngfd?ghfsd?sqdg?gsgfs  ?bg dsf?
 
-`StringEvolve("drg.sdhsd.gdhsqhg.") // Drg.Sdhsd.Gdhsqhg.`
-`StringEvolve("qerg.dqhr.dqhfg.dqf..") // Qerg.Dqhr.Dqhfg.Dqf..`
+StringEvolve("drg.sdhsd.gdhsqhg.") // Drg.Sdhsd.Gdhsqhg.
+StringEvolve("qerg.dqhr.dqhfg.dqf..") // Qerg.Dqhr.Dqhfg.Dqf..
 
-`StringEvolve("bonjour! comment va tu? ca va.") // BONJOUR!ut av tnemmoc ? Ca va.`
-`StringEvolve("dfgndvnb?dsfhg?gdqs.  sfgsgf!fsd gb!") // bnvdngfd?ghfsd?Gdqs.  SFGSGF!FSD GB!`
-
+StringEvolve("bonjour! comment va tu? ca va.") // BONJOUR!ut av tnemmoc ? Ca va.
+StringEvolve("dfgndvnb?dsfhg?gdqs.  sfgsgf!fsd gb!") // bnvdngfd?ghfsd?Gdqs.  SFGSGF!FSD GB!
+```
 
 ### A SAVOIR
 

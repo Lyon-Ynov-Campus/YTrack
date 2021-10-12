@@ -35,8 +35,12 @@ Créer vos tableaux afin de tester votre programme.
 
 **Exemple:**
 
-``` golang
-slotcase := [][]int{{1, 1, 1}, {2, 1, 3}, {3, 2, 1}}
+```
+slotcase := [][]int{
+        {1, 1, 1},
+        {2, 1, 3},
+        {3, 2, 1}
+    }
 
 Analyze(slotcase) // Cela devrait retourner 6
 ```
