@@ -12,7 +12,7 @@ You will need to create a private repository with the name `hangman-classic`
 ### Instructions
 
 Create a program `hangman` that will take a file as parameter. 
-Create a file `words.txt` which contains a bunch of words with which the program will play. Each word is separated with a newline `\n`. Or you can find differents dictionnaries [here](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/dictionnary)
+Create a file `words.txt` which contains a bunch of words with which the program will play. Each word is separated with a newline `\n`. Or you can find differents dictionnaries [here](https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/dictionnary/)
 
 #### PART 1 ---
 
@@ -29,7 +29,7 @@ You will have 10 attempts to complete the game.
 
 Let's name José the poor man that will be hanging to this rope if you lose.
 
-You will be given a file named [hangman.txt](https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/hangman/hangman.txt) that contains all the position of José. 
+You will be given a file named [hangman.txt](https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/dictionnary/) that contains all the position of José. 
 This file contains 10 positions corresponding to the 10 attempts needed to complete the game.
 
 You will need to parse this file and display the appropriate position of José as the count of attemps decreases.
@@ -50,6 +50,25 @@ Here is an example of the seventh position of José :
 =========
 
 ```
+
+### Help
+
+If you don't know how to handle the data of your program you can always try using a structure, and pointer to structure inside the parameters of your future functions.
+
+This is just an example, you are free not to use it, to modify it or to create your own. 
+
+It is as you please and feel free to use what you are comfortable with to make this project.
+
+``` go
+type HangManData struct {
+	Word             string // Word composed of '_', ex: H_ll_
+	ToFind           string // Final word chosen by the program at the beginning. It is the word to find
+	Attempts         int // Number of attempts left
+	HangmanPositions [10]string // It can be the array where the positions parsed in "hangman.txt" are stored
+}
+```
+
+Good luck !
 
 ### Allowed packages
 

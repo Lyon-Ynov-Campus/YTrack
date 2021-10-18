@@ -2,7 +2,7 @@
 
 ### Objectives
 
-You must follow the same [principles](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-web) as the first subject.
+You must follow the same [principles](https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/hangman-web/) as the first subject.
 
 Hangman-level consists in adding difficulties to your website :
 You need to implement a dedicated page at the start of your game that allows the user to choose between the following difficulties
@@ -11,7 +11,7 @@ You need to implement a dedicated page at the start of your game that allows the
 - NORMAL: is file words2 .txt.
 - HARD is: file words3.txt.
 
-You can find these three files [here](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/dictionnary)
+You can find these three files [here](https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/dictionnary/)
 
 Your page must contain a form that is made up of a select input or radio input.
 

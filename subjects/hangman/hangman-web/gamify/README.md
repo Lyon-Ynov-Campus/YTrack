@@ -2,7 +2,7 @@
 
 ### Objectives
 
-You must follow the same [principles](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-web) as the first subject.
+You must follow the same [principles](https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/hangman-web/) as the first subject.
 
 Hangman-gamify consists in making your interface more game oriented.
 

@@ -22,7 +22,7 @@ You will need to create a private repository with the name `hangman-web`
 Create a program `hangman-web` that will take a file as parameter `words.txt`. 
 Create a file `words.txt` which contains a bunch of words with which the program will play. Each word is separated with a newline.
 
-The behavior of the game is the same as the [hangman project](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-classic), refers to it for more details.
+The behavior of the game is the same as the [hangman project](https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/hangman-classic/), refers to it for more details.
 
 In this project you will need to implement at least the following endpoints:
 
@@ -47,7 +47,7 @@ The main page must have at least:
 - HTTP server must be written in _Go_.
 - HTML templates must be in project root directory _templates_.
 - The code must respect the [good practices](https://public.01-edu.org/subjects/good-practices/).
-- Use [Part 2 of hangman-classic] (https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-classic).
+- Use [Part 2 of hangman-classic] (https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/hangman-classic/).
 
 ### Usage
 

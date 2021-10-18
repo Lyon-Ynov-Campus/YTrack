@@ -10,7 +10,7 @@
 
 ### Objectives
 
-You must follow the same [principles](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-classic) as the first subject.
+You must follow the same [principles](https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/hangman-classic/) as the first subject.
 
 In hangman-start-and-stop have to create a way to stop the game and save the progress and restart at anytime to the point where you left the game.
 

@@ -2,7 +2,7 @@
 
 ## Objectives
 
-You must follow the same [principle](https://github.com/Lyon-Ynov-Campus/YTrack/tree/master/subjects/hangman/hangman-classic) as the first subject.
+You must follow the same [principle]https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/hangman-classic/) as the first subject.
 
 Ascii-art is a program which consists in receiving a string in the standar input and outputting the string in a graphic representation using ASCII. **Time to write big !!**.
 
@@ -18,7 +18,7 @@ What we mean by a graphic representation using ASCII, is to write the string rec
                                                 
 ## Instructions
 * Your project must be written in Go.
-* This project should display letters in ASCII-Art from those [following files](https://github.com/LeaderGRL/Hangman-ascii-art/tree/main/letters)
+* This project should display letters in ASCII-Art from those [following files](https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/dictionnary/)
     * First you need to pass the file in argument containing the ascii letters as argument to your program (see example below).
     * You will then need to parse this file.
 * You are free to design your own letter file !

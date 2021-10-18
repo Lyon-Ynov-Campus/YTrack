@@ -29,7 +29,7 @@ text := scanner.Text() // Permet de récuperer le text entrée par l'utilisateur
 
 ### Instructions
 
-- Determinez un nombre d'allumettes avec lesquels jouer entre 1 et 15
+- Determinez un nombre aléatoire d'allumettes avec lesquels jouer entre 1 et 15
 - Vous jouerez un tour sur deux, le second tour sera effectué par l'IA, qui choisiria simplement un nombre aléatoire entre 1 et 3 à enlever au nombre d'allumette de base.
 - Vous devez lire l'entrée standard pour demander à l'utilisateur le nombre d'allumette qu'il souhaite enlever.
     - Le nombre d'allumette doit être compris entre 1 et 3 compris.
