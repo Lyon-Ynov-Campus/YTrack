@@ -81,5 +81,5 @@ here is a list of possibilities you can add to your game :
 You can use all system package provided with C# in Visual Studio   
 
 ## Exemple
-[![Alt text](https://i.imgur.com/Z2t5n0H.png)](https://www.youtube.com/watch?v=Q4v8EhDJf3k&ab_channel=jordangrl){:target="_blank"}
+[![Alt text](https://i.imgur.com/Z2t5n0H.png)](https://www.youtube.com/watch?v=Q4v8EhDJf3k&ab_channel=jordangrl)
 
