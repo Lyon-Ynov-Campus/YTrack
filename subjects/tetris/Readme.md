@@ -75,7 +75,7 @@ here is a list of possibilities you can add to your game :
 - Make a clean of the grid when user reach an X score
 - Add malus
 - Add gamemode
-- Make an IA that learn alone to play, make an incredible score and take the control of humanity (forget about that one ^^')
+- Make an AI that learn alone to play, make an incredible score and take the control of humanity (forget about that one ^^')
 
 ## Allowed packages
 You can use all system package provided with C# in Visual Studio   
