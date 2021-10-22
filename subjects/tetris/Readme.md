@@ -78,4 +78,8 @@ here is a list of possibilities you can add to your game :
 - Make an IA that learn alone to play, make an incredible score and take the control of humanity (forget about that one ^^')
 
 ## Allowed packages
-You can use all system package provided with C# in Visual Studio
+You can use all system package provided with C# in Visual Studio   
+
+## Exemple
+[![Alt text](https://img.youtube.com/vi/Q4v8EhDJf3k&ab_channel=jordangrl/0.jpg)](https://www.youtube.com/watch?v=Q4v8EhDJf3k&ab_channel=jordangrl)
+
