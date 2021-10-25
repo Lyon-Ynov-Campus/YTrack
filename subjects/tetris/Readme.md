@@ -28,11 +28,7 @@ Make your own Tetris game ! Create a menu with "Play", "Options" and "Quit" butt
 * Button Option must contain some configurable options
 * Button Quit must obviously quit the game
 
-## Part 1-- Menu
-To start, you had to make a workable menu where users will be able to navigate between "Play", "Options" and "Quit" buttons. You can add more buttons as you want.  
-Interface will be make with winform and it can look like what you want
-
-## Part 2-- Game
+## Part 1-- Game
 Here, is where users will scoring at your game  
 Where to start ?
 ### Drawing--  
@@ -70,18 +66,20 @@ Heres the elements you had to put in your game :
 * Game over if shape fall at the top of the grid
 * You can add elements of gameplay if you want
 
-## Part 3-- Options
-Here you can add what you want to configure your game
-
 ## Bonus part
 Its an optional part   
 here is a list of possibilities you can add to your game :
+- Add a Menu where users will be able to navigate between "Play", "Options" and "Quit" buttons.
 - Save your current game and load it
 - Make an animation for the menu with a tetris playing alone randomly
 - Make a clean of the grid when user reach an X score
 - Add malus
 - Add gamemode
-- Make an IA that learn alone to play, make an incredible score and take the control of humanity (forget about that one ^^')
+- Make an AI that learn alone to play, make an incredible score and take the control of humanity (forget about that one ^^')
 
 ## Allowed packages
-You can use all system package provided with C# in Visual Studio
+You can use all system package provided with C# in Visual Studio   
+
+## Exemple
+[![Alt text](https://i.imgur.com/Z2t5n0H.png)](https://www.youtube.com/watch?v=Q4v8EhDJf3k&ab_channel=jordangrl)
+
