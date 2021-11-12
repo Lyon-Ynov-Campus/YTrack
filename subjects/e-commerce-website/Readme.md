@@ -23,7 +23,7 @@ The project consists in creating the API of an e-commerce website (in the short 
 
 ## SQL
 You have to make a data base to manage users, carts, products etc...   
-Your free to use what you want for your data base except SQLite
+Your free to use what you want for your data base except SQLite, should've been made in the SQL project
 (you can use MySQL, NoSQL ect..)
 
 The goal of this project is to create the API that can communicate with [the provided Front-End]().

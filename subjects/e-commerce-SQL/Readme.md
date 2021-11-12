@@ -3,14 +3,24 @@
 ## Notions
 * [SQL : Installation PhpMyAdmin](https://kinsta.com/fr/blog/installer-phpmyadmin/)
 * [SQL : Syntax](https://sql.sh/cours)
+* [Introduction CDM](https://www.it-connect.fr/introduction-au-mcd/)
 
 ## Instructions
 
-You had to make an CDM (Conceptual Data model) of the database -> You can use [draw.io](https://app.diagrams.net/) or anything else to make it.   
+The goal of this project is to make the databse of an ecommerce website.
+
+### CDM
+
+First, you will have to make an CDM (Conceptual Data model) of the database -> You can use [draw.io](https://app.diagrams.net/) or anything else to make it.   
 All the relations have to be display on the CDM.
 
-Next, make the database using PhpMyAdmin.  
-Your database must contain : 
+**Make sure to think of all the relations and attributes your elements must have before starting to create the DB**
+
+### DataBase
+
+Next, create the database using the PhpMyAdmin tool. 
+
+Your database must contain the followings tables and must respect exactly your MCD: 
 * user table : informations about users
 * adress table : adress from users
 * product table : Product selling from your website
@@ -20,4 +30,12 @@ Your database must contain :
 * rate table : product rating from users
 * all the junction table
 
-And then, make a dataset for your database.
+### Fixtures
+
+Finally, make a script in the language of you choice (PHP seems to be a perfect fit TripleXDPTDRlol) that can fill the database with fake **BUT RELEVANT** data.
+It can be a script full of SQL commands (not very sexy), or a script in a certain language that perform SQL Queries with generated data.
+
+For example, the library [Faker](https://github.com/marak/Faker.js/) in js can help you generate relevant but random data.
+You have some other examples [here](https://dev.to/iainfreestone/20-resources-for-generating-fake-and-mock-data-55g1).
+
+ENJOY !
