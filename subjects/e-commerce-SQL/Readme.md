@@ -1,13 +1,17 @@
 # E-Commerce SQL
 
 ## Notions
-* [SQL : Installation PhpMyAdmin](https://kinsta.com/fr/blog/installer-phpmyadmin/)
-* [SQL : Syntax](https://sql.sh/cours)
 * [Introduction CDM](https://www.it-connect.fr/introduction-au-mcd/)
+* [SQL : Installation PhpMyAdmin](https://kinsta.com/fr/blog/installer-phpmyadmin/)
+* [Vidéo: Fake Data in PHP](https://www.youtube.com/watch?v=sSDh1zfz-5s)
+* [Faker PHP](https://zetcode.com/php/faker/)
+* [SQL : Syntax](https://sql.sh/cours)
 
 ## Instructions
 
 The goal of this project is to make the databse of an ecommerce website.
+
+Create a repository `e-commerce-SQL`, inside of that repository create a folder named `TP`. Put all of your files in this folder
 
 ### CDM
 
