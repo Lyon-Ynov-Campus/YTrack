@@ -28,7 +28,8 @@ Your database must contain the followings tables and must respect exactly your M
 * user table : informations about users
 * adress table : adress from users
 * product table : Product selling from your website
-* cart table : shopping list from users
+* cart table : user cart
+* command-line table : shopping list from users 
 * command table : command history
 * photo table : photos of users and products
 * rate table : product rating from users
