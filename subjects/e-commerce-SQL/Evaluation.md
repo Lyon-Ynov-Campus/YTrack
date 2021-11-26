@@ -21,3 +21,7 @@ Vous pouvez télécharger la base de données avec laquelle travailler ci dessou
 * Q.5 : Lister le top 3 des personnes ayant passer les commandes les plus cher
 
 * Q.6 : Modifier l'adresse de l'utilisateur ayant passé la commande la plus chère par "27 rue saoul servant, 69007, Lyon, France"
+
+* Q.7 : Séléctionner le panier des utilisateur qui n'ont jamais passé de commande
+
+* Q.8 : Quel est la personne la plus agée à avoir mis le plus d'avis de produit
