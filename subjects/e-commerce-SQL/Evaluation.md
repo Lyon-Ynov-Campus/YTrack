@@ -3,7 +3,7 @@
 ## Instructions
 
 Cette évaluation doit s'effectuer via PhpMyAdmin !
-Dans votre repository existant `e-commerce-SQL`, créez un dossier `Eval`. Mettez vos fichier à l'intérieur
+Dans votre repository existant `e-commerce-SQL`, créez un dossier `Eval`. Mettez vos requête et vos résultat à l'intérieur
 
 Vous pouvez télécharger la base de données avec laquelle travailler ci dessous. Importez la ensuite dans PhpMyAdmin
 
