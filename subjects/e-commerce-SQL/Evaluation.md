@@ -9,19 +9,23 @@ Vous pouvez télécharger la base de données avec laquelle travailler ci dessou
 
 <a href="eval.sql" download>Database</a>
 
-## Commerce
-* Q.1 : Séléctionner l'historique de commande, le nom et le prix des produit qui commence par la lettre 'B'
+⚠️ ATTENTION ! La base de donnée ci-dessus comporte des erreurs volontaire (voir Q.9)
 
-* Q.2 : Séléctionner toutes les evaluation ainsi que le pays ou ils ont été réalisé dont le prix du produit est inférieur à 1000€
+## Commerce
+* Q.1 : Séléctionner l'historique de commande, le nom et le prix des produit qui commence par la lettre 'e'
+
+* Q.2 : Séléctionner toutes les evaluation ainsi que le pays ou ils ont été réalisé dont le prix du produit est inférieur à 50€
 
 * Q.3 : Séléctionner la moyenne des évaluations correspondant au produit ayant l'ID le plus petit
 
 * Q.4 : Selectionner la quantité de produit n'ayant jamais fait l'objet d'une commande
 
-* Q.5 : Lister le top 3 des personnes ayant passer les commandes les plus cher
+* Q.5 : Lister le top 3 des personnes ayant passées les commandes les plus chers
 
 * Q.6 : Modifier l'adresse de l'utilisateur ayant passé la commande la plus chère par "27 rue saoul servant, 69007, Lyon, France"
 
 * Q.7 : Séléctionner le panier des utilisateur qui n'ont jamais passé de commande
 
 * Q.8 : Quel est la personne la plus agée à avoir mis le plus d'avis de produit
+
+* Q.9 : Corriger la base de donnée afin de permettre d'accéder au produits acheté dans l'historique des commandes
