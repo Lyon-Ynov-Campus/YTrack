@@ -26,6 +26,6 @@ Vous pouvez télécharger la base de données avec laquelle travailler ci dessou
 
 * Q.7 : Séléctionner le panier des utilisateur qui n'ont jamais passé de commande
 
-* Q.8 : Quel est la personne de France à avoir mis le plus d'avis de produit
+* Q.8 : Quel est la(les) personne(s) de France à avoir mis le plus d'avis de produit
 
 * Q.9 : Corriger la base de donnée afin de permettre d'accéder au produits acheté dans l'historique des commandes
