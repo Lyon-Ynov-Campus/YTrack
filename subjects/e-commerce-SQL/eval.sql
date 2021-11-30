@@ -82,7 +82,7 @@ INSERT INTO `address` (`AddressId`, `Address`, `country`) VALUES
 (40, '113 Olson Alley\nWest Baby, IL 97028', 'Reunion'),
 (41, '763 Meda Way\nEphraimview, TX 13734', 'Eritrea'),
 (42, '5065 Winston Rapids\nWest Art, SD 65940', 'Cyprus'),
-(43, '27 rue saoul servant, Lyon', 'France'),
+(43, '65237 Steuber Ridge\nReichelborough, LA 99746-9569', 'Estonia'),
 (44, '316 Gutmann Gardens\nWilbertberg, WA 13707', 'Rwanda'),
 (45, '503 Lemuel Crossroad Suite 949\nPort Orie, IA 89950', 'Panama'),
 (46, '06137 Gail Gateway Suite 790\nAddisonmouth, TN 88377', 'Saint Martin'),
