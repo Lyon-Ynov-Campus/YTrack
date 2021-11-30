@@ -16,7 +16,7 @@ Vous pouvez télécharger la base de données avec laquelle travailler ci dessou
 
 * Q.2 : Séléctionner toutes les evaluation ainsi que le pays ou ils ont été réalisé dont le prix du produit est inférieur à 50€
 
-* Q.3 : Séléctionner la moyenne des évaluations correspondant au produit ayant l'ID le plus petit
+* Q.3 : Séléctionner la moyenne des évaluations correspondant au produit ayant l'ID le plus petit ou le plus grand (au choix)
 
 * Q.4 : Selectionner la quantité de produit n'ayant jamais fait l'objet d'une commande
 
