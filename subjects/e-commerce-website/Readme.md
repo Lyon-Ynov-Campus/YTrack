@@ -22,7 +22,7 @@ The project consists in creating the API of an e-commerce website (in the short 
 [PHP Documentation : Mysqli:Query](https://www.php.net/manual/en/mysqli.query.php)
 
 ## SQL
-You have to make a data base to manage users, carts, products etc...   
+You have to use your e-commerce-sql database from the previous module to manage users, carts, products etc... This one can be updated to match your need
 Your free to use what you want for your data base except SQLite, should've been made in the SQL project
 (you can use MySQL, NoSQL ect..)
 
@@ -30,7 +30,7 @@ The goal of this project is to create the API that can communicate with <a href=
 
 Here is how you can start the Front-End, you need to install nodejs if not already installed:
 ```
-node front.js
+node index.js
 ```
 
 ## Authentification
