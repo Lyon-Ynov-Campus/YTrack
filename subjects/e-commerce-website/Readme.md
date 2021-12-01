@@ -55,7 +55,7 @@ You must implement the following PHP files:
 - Method: **POST**
 - Body Parameters: ...
 
-`login.php`:
+`connexion.php`:
 - Method: **POST**
 - Body Parameters: `email`, `password`
 
@@ -66,7 +66,7 @@ You must implement the following routes:
 `products.php`: Returns all the products
 - Method: **GET**
 
-`prodcuts.php`: Create a new product
+`products.php`: Create a new product
 - Method: **POST**
 - Body parameter: ...
 
