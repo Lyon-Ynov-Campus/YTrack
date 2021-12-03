@@ -34,7 +34,7 @@ node index.js
 ```
 
 ## Composer
-Composer is package manager for PHP. You had to use composer ton link all your php file with a namespace thanks to autoload
+Composer is package manager for PHP. You had to use composer ton link all your php file with a namespace thanks to autoload    
 If you want to install package for your PHP, also used composer !
 
 ## Authentification
