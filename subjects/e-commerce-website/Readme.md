@@ -82,7 +82,9 @@ You must implement the following routes:
 
 `products.php`: Create a new product
 - Method: **POST**
-- Body parameter: ...
+- Body parameter:   
+* Product : `name` `category`, `price`, `weight`
+* photo : `name`
 
 `products.php`: Delete a product
 - Method: **DELETE**
@@ -90,7 +92,8 @@ You must implement the following routes:
 
 Here are all the requirements to complete the project.
 
-You are free, **and IT WILL BE VERY WELCOME**, to implement any routes you want in the API. If you do so you will need to modify the provided FRONT-END.
+You are free, **and IT WILL BE VERY WELCOME**, to implement any routes you want in the API. If you do so you will need to modify the provided FRONT-END.   
+The route for the photos are already set. You can add any photos you want in the /img directory and you can acces them in the website at the route /img/nameOfYourImage.png
 
 <!-- Here are the products you sell.
 * Sort your product correctly and create category and subcategory if neccessary
