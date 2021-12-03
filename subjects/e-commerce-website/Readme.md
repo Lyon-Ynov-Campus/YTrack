@@ -40,12 +40,19 @@ You also have to create a login session to access the website and be able to buy
 You should use cookies to allow each user to have only one opened session.
 
 Instructions for user registration :
+* Must ask for pseudo
+* Must ask for lastname
+* Must ask for fistname
+* Must ask for ages (int number, not a date)
+* Must ask for country
+* Must ask for city
+* Must ask for address
+* Must ask for address2 (optional value)
+* Must ask for phone number
 * Must ask for mail
   * When a mail is already taken, return an error
-* Must ask for username
 * Must ask for password
   * The password must contain one uppercase character, one digit and 8 characters minimum
-* Must ask for adress
   
 You have to add a "forgot password" button for the login
 
@@ -53,11 +60,14 @@ You must implement the following PHP files:
 
 `inscription.php`: 
 - Method: **POST**
-- Body Parameters: ...
+- Body Parameters: `pseudo`, `lastname`, `firstname`, `ages`, `country`, `city`, `address`, `address2`, `phone`, `mail`, `password`
 
 `connexion.php`:
 - Method: **POST**
 - Body Parameters: `email`, `password`
+
+⚠️ To get post value wich is sending from JS file (like connexion.js) you had to use : file_get_contents('php://input');
+Which this, you will have json data format that you need to decode !
 
 ## Products
 
