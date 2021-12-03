@@ -101,7 +101,7 @@ You are free, **and IT WILL BE VERY WELCOME**, to implement any routes you want 
      
 The route for the photos are already set. You can add any photos you want in the /img directory and you can acces them in the website at the route /img/nameOfYourImage.png  
    
-You can test your API by using POSTMAN !
+You can test your API by using **POSTMAN** !
 
 <!-- Here are the products you sell.
 * Sort your product correctly and create category and subcategory if neccessary
