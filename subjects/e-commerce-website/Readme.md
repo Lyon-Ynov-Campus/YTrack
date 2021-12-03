@@ -64,10 +64,14 @@ You must implement the following PHP files:
 
 `inscription.php`: 
 - Method: **POST**
+- Route front : /inscription
+- Route back : /inscr
 - Body Parameters: `pseudo`, `lastname`, `firstname`, `ages`, `country`, `city`, `address`, `address2`, `phone`, `mail`, `password`
 
 `connexion.php`:
 - Method: **POST**
+- Route front : /connexion
+- Route back : /conn
 - Body Parameters: `email`, `password`
 
 ⚠️ To get post value wich is sending from JS file (like connexion.js) you had to use : file_get_contents('php://input');   
@@ -82,6 +86,7 @@ You must implement the following routes:
 
 `products.php`: Create a new product (NOT IN THE FRONT)
 - Method: **POST**
+- Route front : /produit
 - Body parameter:   
 * Product : `name` `category`, `price`, `weight`
 * photo : `name`
