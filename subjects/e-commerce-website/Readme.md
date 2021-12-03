@@ -66,8 +66,8 @@ You must implement the following PHP files:
 - Method: **POST**
 - Body Parameters: `email`, `password`
 
-⚠️ To get post value wich is sending from JS file (like connexion.js) you had to use : file_get_contents('php://input');
-Which this, you will have json data format that you need to decode !
+⚠️ To get post value wich is sending from JS file (like connexion.js) you had to use : file_get_contents('php://input');   
+With this, you will have json data format that you need to decode !
 
 ## Products
 
