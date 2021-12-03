@@ -80,20 +80,23 @@ You must implement the following routes:
 `products.php`: Returns all the products
 - Method: **GET**
 
-`products.php`: Create a new product
+`products.php`: Create a new product (NOT IN THE FRONT)
 - Method: **POST**
 - Body parameter:   
 * Product : `name` `category`, `price`, `weight`
 * photo : `name`
 
-`products.php`: Delete a product
+`products.php`: Delete a product (NOT IN THE FRONT)
 - Method: **DELETE**
 - Body parameter: `id`
 
 Here are all the requirements to complete the project.
 
 You are free, **and IT WILL BE VERY WELCOME**, to implement any routes you want in the API. If you do so you will need to modify the provided FRONT-END.   
-The route for the photos are already set. You can add any photos you want in the /img directory and you can acces them in the website at the route /img/nameOfYourImage.png
+     
+The route for the photos are already set. You can add any photos you want in the /img directory and you can acces them in the website at the route /img/nameOfYourImage.png  
+   
+You can test your API by using POSTMAN !
 
 <!-- Here are the products you sell.
 * Sort your product correctly and create category and subcategory if neccessary
