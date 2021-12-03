@@ -33,6 +33,10 @@ Here is how you can start the Front-End, you need to install nodejs if not alrea
 node index.js
 ```
 
+## Composer
+Composer is package manager for PHP. You had to use composer ton link all your php file with the autoload   
+If you want to install package for your PHP, also used composer !
+
 ## Authentification
 In this segment you must be able to `register` as a new user on the website, by inputting their credentials. 
 You also have to create a login session to access the website and be able to buy.
