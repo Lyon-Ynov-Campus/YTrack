@@ -83,10 +83,11 @@ In this part you must implement a [CRUD](https://developer.mozilla.org/fr/docs/G
 You must implement the following routes:
 `products.php`: Returns all the products
 - Method: **GET**
+- Route front : /produit
+
 
 `products.php`: Create a new product (NOT IN THE FRONT)
 - Method: **POST**
-- Route front : /produit
 - Body parameter:   
 * Product : `name` `category`, `price`, `weight`
 * photo : `name`
