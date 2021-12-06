@@ -1,4 +1,4 @@
-# E-Commerce Website
+# E-Commerce Website: Subject 1
 
 ## Objectives
 The project consists in creating the API of an e-commerce website (in the short time we have) that allow to :
@@ -27,11 +27,17 @@ Your free to use what you want for your data base except SQLite, should've been 
 (you can use MySQL, NoSQL ect..)
 
 The goal of this project is to create the API that can communicate with <a href="e-commerce-website.rar" download>the provided frontend</a>.
+**VERY IMPORTANT**: Put the folder `Www` that you will find insinde the .rar into WAMP path -> `[your path to wamp]\wamp64\www\`.
+Create a folder `backend` in the existing folder `src`
 
 Here is how you can start the Front-End, you need to install nodejs if not already installed:
 ```
 node index.js
 ```
+Then you can go to `localhost:5000`
+
+For the frontend to work for everyone despite differents name of property in the Database, you must transform your data as an array using the below function:
+`mysqli_fetch_array`
 
 ## Composer
 Composer is package manager for PHP. You had to use composer ton link all your php file with a namespace thanks to autoload    
@@ -81,7 +87,7 @@ With this, you will have json data format that you need to decode !
 
 In this part you must implement a [CRUD](https://developer.mozilla.org/fr/docs/Glossary/CRUD) for the products of your website
 You must implement the following routes:
-`products.php`: Returns all the products
+`product.php`: Returns all the products
 - Method: **GET**
 - Route front : /produit
 
@@ -89,7 +95,7 @@ You must implement the following routes:
 `products.php`: Create a new product (NOT IN THE FRONT)
 - Method: **POST**
 - Body parameter:   
-* Product : `name` `category`, `price`, `weight`
+* Product : `name` `category`, `price`, `weight` // HERE YOU NEED TO FILL ALL THE ATTRIBUTE OF YOU product TABLE, this is just an example
 * photo : `name`
 
 `products.php`: Delete a product (NOT IN THE FRONT)
