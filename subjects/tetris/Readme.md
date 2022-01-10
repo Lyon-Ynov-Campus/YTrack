@@ -23,10 +23,15 @@ Inheritance](https://docs.microsoft.com/fr-fr/dotnet/csharp/fundamentals/object-
 ## Instructions
 You had to use Visual Studio (not visual studio code) to make your program
 
-Make your own Tetris game ! Create a menu with "Play", "Options" and "Quit" buttons and make them work.  
+Make your own Tetris game ! Create an interface thanks to winform and make a menu with "Play", "Options" and "Quit" buttons and make them work.  
 * Button Play must launch the game
 * Button Option must contain some configurable options
 * Button Quit must obviously quit the game
+
+Your program must be oriented object and had to got
+* Accessor
+* inheritance
+* polymorphisme
 
 ## Part 1-- Game
 Here, is where users will scoring at your game  
