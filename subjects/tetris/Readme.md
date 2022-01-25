@@ -23,10 +23,15 @@ Inheritance](https://docs.microsoft.com/fr-fr/dotnet/csharp/fundamentals/object-
 ## Instructions
 You had to use Visual Studio (not visual studio code) to make your program
 
-Make your own Tetris game ! Create a menu with "Play", "Options" and "Quit" buttons and make them work.  
+Make your own Tetris game ! Create an interface thanks to winform and make a menu with "Play", "Options" and "Quit" buttons and make them work.  
 * Button Play must launch the game
 * Button Option must contain some configurable options
 * Button Quit must obviously quit the game
+
+Your program must be oriented object and had to got
+* Accessor
+* inheritance
+* polymorphisme
 
 ## Part 1-- Game
 Here, is where users will scoring at your game  
@@ -34,19 +39,19 @@ Where to start ?
 ### Drawing--  
 First, you had to make a grid in your interface, its here where users will play. you had to use elements in winform to make it. This grid will allow you to :
 * Manage colisions
-* Make your shapes move by updating your grid in time
+* Make your tetraminos move by updating your grid in time
 * [here](https://i.imgur.com/DX0hjuH.png) you can look how it should work   
 
-You can define your shape with the way you want but we recommend to make a class for this  
-Your shape have to : 
+You can define your tetraminos with the way you want but we recommend to make a class for this  
+Your tetraminos have to : 
 * Have a size
 * Have a color
 * Have a shape --'
-* Be able to rotate except beside a wall or an other shape
+* Be able to rotate except beside a wall or an other tetraminos
 
 You had to have an area where users can see :
 * Their score
-* The next shape to come
+* The next tetraminos to come
 
 ### Timer--
 Every game (almost) have a timer, it will allow you to update your state game.  
@@ -57,13 +62,13 @@ With the timer you must :
 ### Gameplay-- 
 This is the way to play the game with elements that you put in your game. You can reinvent the way to play Tetris if you want but you had to make the base of the real game work.  
 Heres the elements you had to put in your game : 
-* Uses key to move your shape right to left
-* Make a random shape spawn at the top of the grid
-* Make the shape fall
-* Make the shape fall faster when user press key down
+* Uses key to move your tetraminos right to left
+* Make a random tetraminos spawn at the top of the grid
+* Make the tetraminos fall
+* Make the tetraminos fall faster when user press key down
 * Make line disappear if it is complete
 * Increase the score when a line is completed
-* Game over if shape fall at the top of the grid
+* Game over if tetraminos fall at the top of the grid
 * You can add elements of gameplay if you want
 
 ## Bonus part

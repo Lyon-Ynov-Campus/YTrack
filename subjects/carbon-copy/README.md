@@ -80,6 +80,14 @@ Change the order of the pictures when clicking on the pictures' section, [toggli
 
 ### Phase 4: Make your own Website _(mandatory)_
 
+First of all, duplicate all your files created so far `(index.html, style.css, index.js)`
+Put your old files in a folder named `carbon-copy`. This folder must contains the files of the basic project
+
+Now edit and customise the new files ! Here is an example of what you must have.
+<br>
+![](https://lyon-ynov-campus.github.io/YTrack/subjects/carbon-copy/folders-example.png)
+
+
 Try making your own website, importing project of your creation ? Making a Resume or a little Portfolio ? Maybe creating more than one page ?
 It's up to you, be creative (that is what you're meant for), and don't hesitate to ask or search for what's possible to do.
 
