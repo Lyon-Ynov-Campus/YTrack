@@ -46,7 +46,7 @@ où :
 - Le fichier js principal sera nommé ```cash.js```
 
 ## Files:
-[index.html](https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/exo-exam-challenge-js/currency-changer/index.html)
+[index.html](./currency-changer.html)
 
 ## Lien utile
 
