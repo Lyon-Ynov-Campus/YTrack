@@ -9,7 +9,7 @@ Cette conversion devra être affichée :
 - Lorsque l'utilisateur arrête d'écrire et quitte l'input (cf: STEP 2)
 - Que l'utilisateur change de monnaie d'entrée ou de sortie
 
-Le client pourra choisir quelle devise utiliser parmi les 4 devises présente dans la page HTML fourni [ici](https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/exo-exam-challenge-js/currency-changer/index.html).
+Le client pourra choisir quelle devise utiliser parmi les 4 devises présente dans la page HTML fourni [ici](./currency-changer.html).
 
 ## STEP 1
 
@@ -17,10 +17,10 @@ Pour effectuer votre conversion, vous devrez utiliser l'objet suivant :
 
 ``` js
 const money = {
-dollar: 0.84,
-euro: 1,
-livre: 1.14,
-bitcoin: 40000
+    dollar: 0.84,
+    euro: 1,
+    livre: 1.14,
+    bitcoin: 40000
 }
 ```
 
@@ -33,6 +33,10 @@ où :
 - **devise_entrée** est la monnaie à convertir
 - **quantité** est la valeur de l'input avec `id="entry"`
 - **devise_sortie** est la monnaie dans laquelle on veut convertir
+
+> **Exemple:** Convertir 14$ en livres
+>
+> (0.84 * 14) / 1.14 = 10.31 livres
 
 ## STEP 2
 

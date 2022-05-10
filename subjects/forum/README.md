@@ -22,10 +22,10 @@ To know more about SQLite you can check the [SQLite page](https://www.sqlite.org
 
 #### API
 
-One of the goal of this project is also to gather all the knowledge acquired throughout the year. With that in mind, you will be asked to create your very first mini API.
+One of the goal of this project is also to gather all the knowledge acquired throughout the year. With that in mind, you will be asked to create your very **first mini API**.
 
 * Your Go routes must either be :
-  * Public Route: A Route that present HTML content via a static html page using `http` golang package with `http.ServeFile` function.
+  * "*Public Route*": A Route that present HTML content via a static html page using `http` golang package with `http.ServeFile` function.
   * "*Private*" Route: A Route that performs an action on the database or retrieves data. Then it returns a result in the response of the route *(ResponseWriter)*
   <br><br>
 * Your JavaScript will then: 
@@ -34,7 +34,7 @@ One of the goal of this project is also to gather all the knowledge acquired thr
 
 **Example**
 ``` javascript
-fetch("/routeName", {
+fetch("/golangRouteName", {
   method: "POST", // or GET
   headers: {
     "content-type": "application/json"
@@ -63,11 +63,14 @@ Your Javascript MUST be in charge of the rendering part, here is a few library y
 - [HandleBars Library](https://handlebarsjs.com/)
 - [Mustach.js](https://github.com/janl/mustache.js)
 - [EJS](https://ejs.co/#install)
+- Many templating libraries exist, feel free to use the one you want. A shorthands list here: https://colorlib.com/wp/top-templating-engines-for-javascript/
 
 If you are warriors and your group wants a challenge you can still look at Javascript Framework, **but be aware of what you do if you want to dive into it, it wont be easy**:
 - [Vue.js](https://vuejs.org/v2/guide/)
 - [React](https://fr.reactjs.org/)
 - [Angular](https://angular.io/docs)
+
+This alternative is not recommanded regarding the time you have to complete the project, still you can try, but don't cry.
 
 
 #### Authentication
@@ -88,7 +91,7 @@ The forum must be able to check if the email provided is present in the database
 
 #### Posting
 
-In order for users to interact with the forum, they will able to create posts.
+In order for users to interact with the forum, they will be able to create posts.
 
 - Only registered users will be able to create posts.
 - Posts that belongs to the registered user can be edited or deleted.
