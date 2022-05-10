@@ -71,7 +71,7 @@ Lorsque l'objet rencontre un bord gauche ou droite:
 
 ## Files:
 
-[index.html](https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/exo-exam-challenge-js/dvd/dvd.html)
+[index.html](./dvd.html)
 
 
 ## Exemple:

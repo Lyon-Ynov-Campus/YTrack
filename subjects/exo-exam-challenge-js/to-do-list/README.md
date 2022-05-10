@@ -35,7 +35,7 @@ Si la `checkbox` est cochée la task doit être supprimée.
 
 ## Files:
 
-[index.html](https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/exo-exam-challenge-js/to-do-list/index.html)
+[index.html](./to-do-list.html)
 
 
 
