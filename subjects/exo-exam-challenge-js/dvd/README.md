@@ -55,6 +55,11 @@ Lorsque l'objet rencontre un bord gauche ou droite:
 
 * incrémenter ou décrémenter la position ``x``.
 
+
+<br>
+
+**Libre à vous de rajouter des effets ou options supplémentaires si vous avez ralisé le reste.**
+
 <br>
 
 ## ⚠️Attention⚠️
@@ -64,9 +69,6 @@ Lorsque l'objet rencontre un bord gauche ou droite:
 * La taille de l'objet est de 300x300px
 * Si la taille de la fenêtre est réduite le comportement de l'objet doit s'adpater.
 * Le fichier js principal sera nommé ``dvd.js``
-
-
-
 
 
 ## Files:

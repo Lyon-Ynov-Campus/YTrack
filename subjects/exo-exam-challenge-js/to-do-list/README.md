@@ -6,6 +6,14 @@ Dans cet exercice vous devrez créer une `to do list` à la manière d'une liste
 
 Pour ce faire à chaque fois que vous appuyerez sur le bouton `new task`, une nouvelle tache se créera en fontion du texte écrit dans une input.
 
+L'utilisation de class (concept de POO) est recommandé pour cette exercice par soucis de simplicité mais n'est pas obligaroire.
+> Exemple:
+>
+> Une class "Task" qui créer une div dans le constructeur, créer une checkbox dans cette div, puis ajoute la div à la liste.
+> Cette classe pourrait contenir d'autre méthode au besoin pour la gestion d'une tâche "coché", "déchocher", "supprimer".
+>
+> **ATTENTION**, ce n'est qu'un exemple en aucun cas ce que vous devez faire exactement.
+
 <br>
 
 ## STEP 1
@@ -22,7 +30,7 @@ Ces task devront être créer dans la `div` prévue à cet effet dans le fichier
 <div id="tasklist"></div>
 ```
 
-Si la `checkbox` est cochée la task doit être supprimée.
+Si une `checkbox` est cochée la task doit être supprimée.
 
 
 <br>

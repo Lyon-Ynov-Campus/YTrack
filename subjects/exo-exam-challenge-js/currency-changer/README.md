@@ -49,6 +49,12 @@ où :
 - Vous devrez utiliser les propriétés **data-...** présentent sur les `buttons` pour déterminer la devise sur laquelle vous avez cliqué ([dataset js](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset))
 - Le fichier js principal sera nommé ```cash.js```
 
+## Tips
+Vous pouvez utiliser une fonction écrite dans votre "cash.js" pour la passer dans la propriété `onclick` de vos boutons.
+À cette fonction, vous pouvez passer en paramètre l'élément sur lequel elle est appliqueé avec le mot clé `this`
+
+[Exemple](https://stackoverflow.com/questions/925734/whats-this-in-javascript-onclick)
+
 ## Files:
 [index.html](./currency-changer.html)
 
