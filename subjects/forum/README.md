@@ -25,14 +25,14 @@ To know more about SQLite you can check the [SQLite page](https://www.sqlite.org
 One of the goal of this project is also to gather all the knowledge acquired throughout the year. With that in mind, you will be asked to create your very **first mini API**.
 
 * Your Go routes must either be :
-  * "*Public Route*": A Route that present HTML content via a static html page using `http` golang package with `http.ServeFile` function.
+  * "*Public Route*": A Route that present HTML content via a static html page using `http` golang package with `http.ServeFile` function. (basically a route that serves a template in golang)
   * "*Private*" Route: A Route that performs an action on the database or retrieves data. Then it returns a result in the response of the route *(ResponseWriter)*
   <br><br>
 * Your JavaScript will then: 
   * Call the privates routes with the `fetch` function, specifying the method and maybe the params you want to pass to your route.
-  * When the route has responded, it will display the data on the page. (You can use [handleBars library](https://handlebarsjs.com/) to help you display the data dynamically)
+  * When the route has responded, it will display the data on the page. (Theses responses will be displaye dynamically)
 
-**Example**
+**Example to call private route in JS**
 ``` javascript
 fetch("/golangRouteName", {
   method: "POST", // or GET
@@ -58,7 +58,7 @@ fetch("/golangRouteName", {
 
 **All the templating part to display the informations dynamically souldn't be done with the package `html/template`.**
 
-Your golang is only responsible for retrieving data and requesting the Database.
+<!-- Your golang is only responsible for retrieving data and requesting the Database.
 Your Javascript MUST be in charge of the rendering part, here is a few library you can look at to help you with this:
 - [HandleBars Library](https://handlebarsjs.com/)
 - [Mustach.js](https://github.com/janl/mustache.js)
@@ -70,7 +70,7 @@ If you are warriors and your group wants a challenge you can still look at Javas
 - [React](https://fr.reactjs.org/)
 - [Angular](https://angular.io/docs)
 
-This alternative is not recommanded regarding the time you have to complete the project, still you can try, but don't cry.
+This alternative is not recommanded regarding the time you have to complete the project, still you can try, but don't cry. -->
 
 
 #### Authentication
@@ -78,6 +78,13 @@ This alternative is not recommanded regarding the time you have to complete the 
 In this segment the client must be able to `register` as a new user on the forum, by inputting their credentials. You also have to create a `login session` to access the forum and be able to add posts.
 
 You should use cookies to allow each user to have only one opened session. Each of this sessions must contain an expiration date. It is up to you to decide how long the cookie stays "alive".
+
+<p style="color: red">IMPORTANT</p>
+
+Theses two features must follow the principle of privates route mentionned earlier, so:
+- In your golang server you must have a route `/login`, it will check if the users credentails are correct to log him in, and return a response.
+- In your golang server you must have a route `/register`, it will put users informations in the Database the create a new user.
+- Both of theses routes will be called by Javascript with fetch (see example above), Javascript will then print the response (error, or success whatever)
 
 Instructions for user registration:
 
