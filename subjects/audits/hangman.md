@@ -133,6 +133,7 @@ Congrats !
 > - Are the tests checking each possible case?
 > - Is the output of the program well structured? Are the characters displayed correctly in line?
 > - Is the project a package ```hangman``` ?
+> - Does the project respect the [good practices](https://public.01-edu.org/subjects/good-practices/) ?
 
 ### Social
 
