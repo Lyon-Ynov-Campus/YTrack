@@ -15,13 +15,9 @@ Has the requirement for the allowed packages been respected? (Reminder for this 
 **Answer all these questions :**
 
 > - Does the program choose a random word ?
-
 > - Does the program reveal ```n``` random letters in the word, which ```n``` equals to ```len(word) / 2 - 1``` ?
-
 > - Does the program read the standard input to suggest a letter ?
-
 > - Does the program print error messages and the number of attempts decreases by one when letter is not correct ?
-
 > - When letter is correct, does it reveal all the letters corresponding in the word ?
 
 #### Part 2
@@ -29,9 +25,7 @@ Has the requirement for the allowed packages been respected? (Reminder for this 
 **Answer all these questions :**
 
 > - Does the program reads all positions of José from ```hangman.txt``` ?
-
 > - Does the program display all positions of José based on the number of attempts ?
-
 > - Does the program display this position of José when the number of attempts is equal to **7** :
 
 ```
@@ -49,7 +43,6 @@ Has the requirement for the allowed packages been respected? (Reminder for this 
 **Answer all these questions :**
 
 > - Type **STOP** in the standard input. Does it stop the game and save the status of the game encoded with ```json.Marshal``` in a file ```save.txt``` ?
-
 > - Can you start the game with the status of the game saved in ```save.txt``` with the flag ```--startWith save.txt``` ?
 
 ### ascii-art
@@ -126,12 +119,11 @@ Congrats !
 **Answer all these questions :**
 
 > - Can you suggest a word ?
-
 > - If the word is not correct, does your number of attempts decrease by 2 ?
-
 > - If the word is correct, does it stop the game ?
-
 > - Can you suggest the same letter two times ? And does it display an error message ?
+
+
 
 ### Basic
 
