@@ -130,6 +130,7 @@ Congrats !
 > - Is there a test file for this code?
 > - Are the tests checking each possible case?
 > - Is the output of the program well structured? Are the characters displayed correctly in line?
+> - Is the project a package ```hangman``` ?
 
 ### Social
 
