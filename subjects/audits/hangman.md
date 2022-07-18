@@ -123,6 +123,8 @@ Congrats !
 > - If the word is correct, does it stop the game ?
 > - Can you suggest the same letter two times ? And does it display an error message ?
 
+
+
 ### Basic
 
 > - Does the project runs quickly and effectively? (Favoring recursive, no unnecessary data requests, etc)
