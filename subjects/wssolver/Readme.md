@@ -1,22 +1,45 @@
 # Word Scrabble Solver
+## Objectives
+
+Word Scramble Solver consists on receiving a Word Scramble field and finding all the words contained in it.
+
+The given field will always be of size [10]x[10] and will always contain runes.
+
+You are given a list of words to work with , all the words to find will be contained in this list.
+
+All the possible words have to be found.
+
+
+The Words to find can only be in line , Column or Diagonal like so :
+![](SolverVector.png)
+
+
 
 ## Instructions
 
-Write a program that finds the words contained in a Word Scrabble Puzzle.
+Write a function that reads the Word Scramble field and prints the words found.
 
 The Program must draw the letter table like so :
 
 ![](ExampleTable.png)
 
-The Words to find can only be in line , Column or Diagonal like so :
 
-![](SolverVector.png)
+Here is an example of the program running :
 
-All the possible words have to be found.
+![](ExampleSolverMM.gif)
 
+You are only allowed the packages listed bellow : 
+
+- "buffio"
+
+- "log"
+
+- "os"
+
+- "github.com/01-edu/z01"
 ## Ressources
 
-Here is an examble of letter table to work with and test your code : 
+Here is an example of letter table to work with and test your code : 
 ```
 var field = [10][10]rune{
 	{'c', 'o', 't', 'd', 't', 'r', 's', 'n', 'e', 'c'},
@@ -31,12 +54,11 @@ var field = [10][10]rune{
 	{'b', 'a', 'i', 'e', 's', 't', 'h', 'n', 'w', 's'},
 }
 ```
-Here is an example of the program running : 
-![](ExampleSolverMM.gif)
 
 Here is the list of Words :
+
 [words.txt](https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/wssolver/words.txt)
 
 ### Docs:
-[Readfile.doc](https://pkg.go.dev/io/ioutil#ReadFile)
+[Readfile.doc](https://golangdocs.com/golang-read-file-line-by-line)
 
