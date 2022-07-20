@@ -11,6 +11,7 @@ All the possible words have to be found.
 
 
 The Words to find can only be in line , Column or Diagonal like so :
+
 ![](SolverVector.png)
 
 
