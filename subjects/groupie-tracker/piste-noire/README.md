@@ -1,9 +1,9 @@
-# Piste noire - Groupie-Tracker
+# Black track - Groupie-Tracker
 
 ### Objective
 
-This is the Groupie-Tracker project's black run subject. This is a more difficult one than the basic subject.
-Please note, that you must have done the entire basic subject. The goal of this black run is to challenge you.
+This is the Groupie-Tracker project's black track subject. This is a more difficult one than the basic subject.
+Please note, that you must have done the entire basic subject. The goal of this black track is to challenge you.
 <br>
 
 ### Restrictions
