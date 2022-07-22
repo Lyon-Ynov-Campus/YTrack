@@ -21,19 +21,16 @@ Here is some links to do so:
 
 ### Database
 
-You have to implement a system of user data with statistics, a dynamic scoreboard saved on a **CSV** file.
+You must add a system of user with statistics, saved in a **CSV** file.
 You must at least add these features :
-> - user
 > - dynamic scoreboard
-> - statistics (wins, defeats, ratio(W/L))
+> - statistics about the user (wins, defeats, ratio(W/L))
 
-*You can implement what you want with those data.*
+*You can also implement the data you want.*
 
-### Documentation
+### Templates Golang
 
-You need absolutely these **ressources** below to succeed this exercise.
+You have the obligation to use complex golang templates such as in those examples :
 
-> - [Spotify API](https://developer.spotify.com/documentation/web-api/)
-> - [Some Maps API](https://rapidapi.com/blog/top-map-apis/)
-> - [SQLite page](https://www.sqlite.org/index.html)
-> - [bcrypt](https://pkg.go.dev/golang.org/x/crypto/bcrypt)
+> - [Templates Golang](https://developer.spotify.com/documentation/web-api/)
+> - [text/template](https://pkg.go.dev/text/template) (at the end of the doc)
