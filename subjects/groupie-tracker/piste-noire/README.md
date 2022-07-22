@@ -27,6 +27,7 @@ You must at least add these features :
 > - Favorite artists
 > - Liked artists
 > - Spotify playlist of the user
+
 *You can implement what you want with this system of accounts.*
 
 ### Advanced-Map

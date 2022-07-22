@@ -26,6 +26,7 @@ You must at least add these features :
 > - user
 > - dynamic scoreboard
 > - statistics (wins, defeats, ratio(W/L))
+
 *You can implement what you want with those data.*
 
 ### Documentation
