@@ -1,9 +1,9 @@
-# Piste noire - Groupie-Tracker
+# Black track - Groupie-Tracker
 
 ### Objective
 
-This is the Groupie-Tracker project's black run subject. This is a more difficult one than the basic subject.
-Please note, that you must have done the entire basic subject. The goal of this black run is to challenge you.
+This is the Groupie-Tracker's black track subject. It's  a much more difficult subject than the basic one.
+Please note, that you must have completed the entire basic subject first. The goal of this black track is to challenge you.
 <br>
 
 ### Restrictions
@@ -23,11 +23,12 @@ Spotify must be implemented instead of Deezer.
 
 You have to implement a system of login/register with accounts' data saved on a SQL Database.
 The password must be encrypted when stocked.
-You can implement what you want with this system of accounts.
 You must at least add these features :
 > - Favorite artists
 > - Liked artists
 > - Spotify playlist of the user
+
+*You can implement what you want with this system of accounts.*
 
 ### Advanced-Map
 

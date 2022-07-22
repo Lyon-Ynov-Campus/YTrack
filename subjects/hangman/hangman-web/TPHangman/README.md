@@ -36,8 +36,8 @@ For info : the route "/" is the route for the homepage and the "/idcard" route i
 
 ### Exercise 2 - Choose http/method to get infos
 
-Now that the server has been created, choose the correct [method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) in order to get your infos in the *index.html* file by creating a *form*.
-Then you will have to use [GolangTemplates](https://pkg.go.dev/text/template) to get the Go struct data on your web page.
+Now that the server has been created, choose the correct [method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) in order to get your infos in the *index.html* file by creating a [form](https://developer.mozilla.org/fr/docs/Web/HTML/Element/Form).
+Then you will have to use [GolangTemplates](https://pkg.go.dev/text/template) to get the Go structure data on your web page.
 <br>
 And don't forget to customize the web pages using CSS files. *Note that you have to link CSS files to the server but also to the html file.*
 
