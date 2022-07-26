@@ -10,7 +10,7 @@ You are given a list of words to work with , all the words to find will be conta
 All the possible words have to be found.
 
 
-The Words to find can only be in line , Column or Diagonal like so :
+The Words to find can only be contained in all the lines , Columns or Diagonals like so :
 
 ![](SolverVector.png)
 
@@ -18,7 +18,13 @@ The Words to find can only be in line , Column or Diagonal like so :
 
 ## Instructions
 
-Write a function that reads the Word Scramble field and prints the words found.
+Write the Solver() function that takes a field[10][10]rune in parameter and returns the found words.
+
+Your code must be delivered with the Solver() function and by replacing 'package main' with 'package Correction'.
+
+Here is an example of the expected result to give in :
+
+![](result.png)
 
 The Program must draw the letter table like so :
 
