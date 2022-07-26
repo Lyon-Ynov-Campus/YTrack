@@ -48,7 +48,7 @@ You are only allowed the packages listed bellow :
 
 Here is an example of letter table to work with and test your code : 
 ```
-var field = [10][10]rune{
+var suj2 = [10][10]rune{
 	{'c', 'o', 't', 'd', 't', 'r', 's', 'n', 'e', 'c'},
 	{'r', 'e', 'e', 'o', 't', 'e', 'o', 'h', 'u', 'c'},
 	{'ê', 'u', 'h', 'h', 't', 'r', 'l', 'a', 'o', 'a'},
