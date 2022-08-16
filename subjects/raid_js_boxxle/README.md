@@ -3,8 +3,7 @@ In this project you will create a browser-based puzzle game.
 
 ### Getting started
 You will need to create a public repository with the name `boxxle`.
-You can find a very very basic, [html,css and js files](./baseCode/) to start with if you want, you can also start from zero. That will be quite the same actually..
-Work it out yourself to find the sources from this page ;). A shot of "inspect element" maybe ?
+You can find a very very basic, [html,css and js files](./baseCode/) to start with if you want, you can also start from zero.
 
 You will find a [levels.js](./baseCode/level.js) file, all your map generation will be based on this file.
 
