@@ -51,7 +51,7 @@ The search should be interactive. In other words, the results should be filtered
 
 It will be valuable to sort the information in the table by any of its columns. Results should be sortable alphabetically or numerically.
 
-- nitially all rows should be sorted by the column `name`,`age`, `birth`, `data...... by `ascending` order.
+- nitially all rows should be sorted by the column `name`,`age`, `birth`, `data...... ` by ascending` order.
 - The first click on a column heading will sort the table by the data in that column in `ascending`.
 - Consecutive clicks on a column heading will toggle between `ascending` and `descending`
 
