@@ -20,17 +20,17 @@ You must write all of the code from scratch. You are not allowed to rely on any 
 In order to get the information, you should use `fetch`. When you use `fetch` in JS, it always returns a `Promise`. We will look more deeply into that later on. For now, tak a look at this:
 
 ```
-{
+
 // This function is called only after the data has been fetched, and parsed.
 const loadData = heroes => {
   console.log(heroes)
 }
 
 // Request the file with fetch, the data will downloaded to your browser cache.
-fetch('Choose ur api')
+fetch('API URL')
   .then((response) => response.json()) // parse the response from JSON
   .then(loadData) // .then will call the `loadData` function with the JSON value.
-}
+
 ```
 
 ### Display
