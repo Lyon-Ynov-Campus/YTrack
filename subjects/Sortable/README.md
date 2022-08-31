@@ -7,13 +7,8 @@ Public api: https://github.com/public-apis/public-apis
 
 ## Instruction 
 
-You are a villain and your dream is to get rid of those annoying, yoga-pant-wearing, weird masked superheroes. You never understood why some of them are considered to be superheroes, just because they are rich. Others annoy you with their philosophical speeches.
+your job is create a web page for sort an api. You must sort with the data that the api offers you , the more data retrieve the better .
 
-We've found confidential information about those superheroes.
-
-Your task is to build a web page to organize all the data about those smartypants. All that data can be found here in `all.json` .
-
-You must write all of the code from scratch. You are not allowed to rely on any frameworks or libraries like React, Vue, Svelte etc.
 
 ### Fetching the data
 
@@ -22,8 +17,8 @@ In order to get the information, you should use `fetch`. When you use `fetch` in
 ```
 
 // This function is called only after the data has been fetched, and parsed.
-const loadData = heroes => {
-  console.log(heroes)
+const loadData = XXX => {
+  console.log(XXX)
 }
 
 // Request the file with fetch, the data will downloaded to your browser cache.
@@ -38,7 +33,7 @@ fetch('API URL')
 Not all the information is valuable at a glance, so we will only show some of the fields in a `<table>` element. The necessary data will be:
 
 
-- Icon (`.image.xs`, should be displayed as images and not as a string)
+- Icon (`.image`)
 - Name (`.name`)
 - Other data ...
 
@@ -56,7 +51,7 @@ The search should be interactive. In other words, the results should be filtered
 
 It will be valuable to sort the information in the table by any of its columns. Results should be sortable alphabetically or numerically.
 
-- nitially all rows should be sorted by the column `name`,`age`, `birth`, `data` by `ascending` order.
+- nitially all rows should be sorted by the column `name`,`age`, `birth`, `data...... by `ascending` order.
 - The first click on a column heading will sort the table by the data in that column in `ascending`.
 - Consecutive clicks on a column heading will toggle between `ascending` and `descending`
 
