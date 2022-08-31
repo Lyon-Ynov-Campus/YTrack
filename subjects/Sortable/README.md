@@ -7,12 +7,12 @@ Public api: https://github.com/public-apis/public-apis
 
 ## Instruction 
 
-your job is create a web page for sort an api. You must sort with the data that the api offers you , the more data retrieve the better .
+Your job is to create a web page that sort an api. You must sort data that the api offers you , the more data retrieve the better .
 
 
 ### Fetching the data
 
-In order to get the information, you should use `fetch`. When you use `fetch` in JS, it always returns a `Promise`. We will look more deeply into that later on. For now, tak a look at this:
+In order to get the information, you should use `fetch`. When you use `fetch` in JS, it always returns a `Promise`. We will look more deeply into that later on. For now, take a look at this:
 
 ```
 
@@ -43,7 +43,7 @@ The default page size selected option must be `20`.
 
 ### Search
 
-It must be possible to filter information by searching the name as a string. For example, searching "man" should find all superheros with `"man"` in their name.
+It must be possible to filter information by searching the name as a string. For example, searching "man" should find all data with `"man"` in their name.
 
 The search should be interactive. In other words, the results should be filtered after every keystroke. So we don't need a "search" button.
 
@@ -51,7 +51,7 @@ The search should be interactive. In other words, the results should be filtered
 
 It will be valuable to sort the information in the table by any of its columns. Results should be sortable alphabetically or numerically.
 
-- nitially all rows should be sorted by the column `name`,`age`, `birth`, `data...... ` by ascending` order.
+- Initially all rows should be sorted by the column `name`,`age`, `birth`, `data...... ` by ascending` order.
 - The first click on a column heading will sort the table by the data in that column in `ascending`.
 - Consecutive clicks on a column heading will toggle between `ascending` and `descending`
 
