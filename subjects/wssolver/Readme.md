@@ -64,8 +64,10 @@ var suj2 = [10][10]rune{
 
 Here is the list of Words :
 
+<a href="https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/wssolver/words.txt" title="words" download>Words</a>
 [words.txt](https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/wssolver/words.txt)
 
 ### Docs:
+
 [Readfile.doc](https://golangdocs.com/golang-read-file-line-by-line)
 
