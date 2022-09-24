@@ -33,7 +33,7 @@ The Program must draw the letter table like so :
 
 Here is an example of the program running :
 
-![](ExampleSolverMM.gif)
+![ExampleSolverMM.gif](https://i.imgur.com/4XZvkVK.gif)
 
 You are only allowed the packages listed bellow : 
 
