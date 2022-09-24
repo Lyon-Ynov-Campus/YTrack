@@ -28,7 +28,7 @@ Here is an example of the expected result to give in :
 
 The Program must draw the letter table like so :
 
-![](ExampleTable.png)
+![ExampleTable.png](https://i.imgur.com/399ayl3.png)
 
 
 Here is an example of the program running :
