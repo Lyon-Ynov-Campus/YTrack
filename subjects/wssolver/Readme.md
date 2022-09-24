@@ -24,7 +24,7 @@ Your code must be delivered with the Solver() function and by replacing 'package
 
 Here is an example of the expected result to give in :
 
-![](result.png)
+![result.png](https://i.imgur.com/zuHTl3o.png)
 
 The Program must draw the letter table like so :
 
