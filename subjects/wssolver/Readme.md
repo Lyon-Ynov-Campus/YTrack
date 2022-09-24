@@ -12,7 +12,7 @@ All the possible words have to be found.
 
 The Words to find can only be contained in all the lines , Columns or Diagonals like so :
 
-![](SolverVector.png)
+![SolverVector.png](https://i.imgur.com/ZhTxNyI.png)
 
 
 
