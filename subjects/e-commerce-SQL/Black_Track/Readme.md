@@ -17,14 +17,14 @@ First, you have to make a database exportable in a CSV file with only one table 
 Export this into a CSV file.
 
 ## Data analysis
-Now that you have all the data in your database, you have to make some analysis on it.
-To analyse the data, you have to download **"Anaconda"** and use **"Jupyter Notebook"** to make your analysis.
-Anaconda is a software with thousands of libraries in python.
-Jupyter is a software that allows you to make a notebook with python code and comments.
-Jupyter allow to work with data to make analysis, graphs, machine learning and more.
-Download the following [notebook]('https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/e-commerce-SQL/Black_Track/e-commerce.ipynb) and import it in your Jupyter Notebook.
-All instructions are in the notebook, fill him and push it in your repository.
-
+Now that you have all the data in your database, you have to make some analysis on it.  
+To analyse the data, you have to download **"Anaconda"** and use **"Jupyter Notebook"** to make your analysis.  
+Anaconda is a software with thousands of libraries in python.  
+Jupyter is a software that allows you to make a notebook with python code and comments.  
+Jupyter allow to work with data to make analysis, graphs, machine learning and more.  
+Download the following [notebook]('https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/e-commerce-SQL/Black_Track/e-commerce.ipynb) and import it in your Jupyter Notebook.  
+All instructions are in the notebook, fill him and push it in your repository.  
+  
 Enjoy !
 
 
