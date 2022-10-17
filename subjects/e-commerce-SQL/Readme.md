@@ -27,18 +27,29 @@ Next, create the database using the PhpMyAdmin tool.
 Your database must contain the followings tables and must respect exactly your MCD: 
 * user table : informations about users
 * adress table : adress from users
-* product table : Product selling from your website
+* product table : Product selling from your website with the following attributes **minimum** :
+  * id
+  * name
+  * price
+  * date of creation
+  * quantity
+  * suppliers/publishers
+  * catagory/kind of product
 * cart table : user cart
-* command-line table : shopping list from users 
-* command table : command history
+* command table : shopping list from users 
+* invoice table : command history
 * photo table : photos of users and products
 * rate table : product rating from users
+* payment table : payment method from users with informations (IBAN, card number, etc...)
 * all the junction table
 
+All the private informations must be crypted !
 ### Fixtures
 
-Finally, make a script in the language of you choice (PHP seems to be a perfect fit TripleXDPTDRlol) that can fill the database with fake **BUT RELEVANT** data.
+Finally, make a script in the language of you choice (PHP seems to be a perfect fit) that can fill the database with fake **BUT RELEVANT** data.
 It can be a script full of SQL commands (not very sexy), or a script in a certain language that perform SQL Queries with generated data.
+
+At the end, your database must contain at least a **minimum** of 1000 data for each collumns.
 
 For example, the library [Faker](https://github.com/marak/Faker.js/) in js can help you generate relevant but random data.
 You have some other examples [here](https://dev.to/iainfreestone/20-resources-for-generating-fake-and-mock-data-55g1).
