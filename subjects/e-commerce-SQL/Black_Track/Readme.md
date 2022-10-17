@@ -22,7 +22,7 @@ To analyse the data, you have to download **"Anaconda"** and use **"Jupyter Note
 Anaconda is a software with thousands of libraries in python.
 Jupyter is a software that allows you to make a notebook with python code and comments.
 Jupyter allow to work with data to make analysis, graphs, machine learning and more.
-Download the following ![notebook]('https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/e-commerce-SQL/Black_Track/e-commerce.ipynb) and import it in your Jupyter Notebook.
+Download the following [notebook]('https://github.com/Lyon-Ynov-Campus/YTrack/blob/master/subjects/e-commerce-SQL/Black_Track/e-commerce.ipynb) and import it in your Jupyter Notebook.
 All instructions are in the notebook, fill him and push it in your repository.
 
 Enjoy !
