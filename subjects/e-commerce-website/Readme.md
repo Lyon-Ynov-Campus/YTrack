@@ -131,13 +131,11 @@ You can test your API by using **POSTMAN** !
 In this segment, users must be able to : 
 * Add product in number to your cart  
 * Erase his cart.    
-* Choose between several payment method.   
 * See his order details before processing the payment
 * See the state of the payment
 * See commands history
 
 The cart informations must be save with cookies.
-A mail is send to the user to confirm his command when this one process to his payment.
 
 ## Admin
 When a user have the grade "Admin" he must be able to :
