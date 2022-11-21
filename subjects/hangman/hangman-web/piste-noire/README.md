@@ -15,6 +15,7 @@ Please note, that you must have completed the entire basic subject first. The go
 
 For this project you will have to design a bit more your website, by making a small mockup of it.
 Also to get an interesting website you have to pick clean **Fonts** and **matching colors**
+You will need to submit a pre-made mock-up of the site's style.
 Here is some links to do so:
 > - Mockup your website --> [Mockup](https://www.mockupworld.co/) or [Figma](https://www.figma.com/fr/)
 > - The all site must be responsive --> [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [Media](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
