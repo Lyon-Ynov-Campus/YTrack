@@ -12,7 +12,7 @@ The project consists in creating the Desktop Application of a Clothing Shop (in 
 ## Tools
 * [C#](https://learn.microsoft.com/fr-fr/dotnet/csharp/)
 * [Winform (windows)](https://learn.microsoft.com/fr-fr/dotnet/desktop/winforms/?view=netdesktop-6.0)
-* [GtkSharp (Max/Linux)](https://www.mono-project.com/docs/gui/gtksharp/)
+* [GtkSharp (Mac/Linux)](https://www.mono-project.com/docs/gui/gtksharp/)
 * [MySQL](https://www.mysql.com/fr/)
 * [WampServer (windows)](https://www.wampserver.com/en/)
 * [MAMP (MAC)](https://www.mamp.info/en/)
