@@ -15,8 +15,12 @@ In this black track, you have to improve your e-commerce website by adding a pay
 ## Mail
 You have to add a "forgot password" button for the login page. When the user click on it, he should receive an email with a link to reset his password.
 
-When the user confirm a command, he should also sreceive an email with the details of his command.
+When the user confirm a command, he should also receive an email with the details of his command.
 
 ## Payment
 
 You have to add a payment system to your website. You can use a third party payment system like [Stripe](https://stripe.com/fr) or [Paypal](https://www.paypal.com/fr/home) or you can create your own payment system.
+
+## Google Connection
+
+You have to add a "Google connection" button on the login page. When the user click on it, he should be able to connect with his google account.
