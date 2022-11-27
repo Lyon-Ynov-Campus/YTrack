@@ -1,4 +1,4 @@
-# E-Commerce Website: Subject 1
+# E-Commerce Website
 
 ## Objectives
 The project consists in creating the API of an e-commerce website (in the short time we have) that allow to :
