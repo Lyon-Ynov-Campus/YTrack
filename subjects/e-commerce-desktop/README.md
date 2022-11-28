@@ -11,7 +11,7 @@ The project consists in creating the Desktop Application of a Clothing Shop (in 
 
 ## Tools
 * [C#](https://learn.microsoft.com/fr-fr/dotnet/csharp/)
-* [Winform (windows)](https://learn.microsoft.com/fr-fr/dotnet/desktop/winforms/?view=netdesktop-6.0)
+* [WPF (windows)](https://learn.microsoft.com/fr-fr/visualstudio/get-started/csharp/tutorial-wpf?view=vs-2022)
 * [GtkSharp (Mac/Linux)](https://www.mono-project.com/docs/gui/gtksharp/)
 * [MySQL](https://www.mysql.com/fr/)
 * [WampServer (windows)](https://www.wampserver.com/en/)
@@ -25,10 +25,10 @@ You have to use your e-commerce-sql database from the previous module to manage 
 The goal of this project is to create a simple desktop application with a stock hnadler.
 
 
-## Winform 
-Windows Forms is a UI framework for building Windows desktop apps. It provides one of the most productive ways to create desktop apps based on the visual designer provided in Visual Studio. Functionality such as drag-and-drop placement of visual controls makes it easy to build desktop apps.
+## WPF (Windows Presentation Foundation)
+Windows Presentation Foundation (WPF) is a free and open-source graphical subsystem (similar to WinForms) originally developed by Microsoft for rendering user interfaces in Windows-based applications.
 
-## Gtk
+## GTK# (Graphique Tool Kit)
 Gtk# is a Graphical User Interface Toolkit for mono and .Net. The project binds the gtk+ toolkit and assorted GNOME libraries, enabling fully native graphical Gnome application development using the Mono and .Net development frameworks.
 
 ## View
