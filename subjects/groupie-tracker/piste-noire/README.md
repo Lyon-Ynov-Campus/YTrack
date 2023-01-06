@@ -9,7 +9,7 @@ Please note, that you must have completed the entire basic subject first. The go
 ### Restrictions
 
 Please note that you are allowed to use the packages authorized for the **Groupie-Tracker** project.
-You can also use these packages for account creation :
+You can also use these packages :
 > - github.com/mattn/go-sqlite3
 > - golang.org/x/crypto/bcrypt
 
