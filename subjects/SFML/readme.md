@@ -35,6 +35,24 @@ SFML is mostly used for 2D games, but you are free to make software, simulations
 * Setup you state machine
 * Add your functionalities
 
+## Constraints
+* You have to use C# and SFML
+* You have to use the state machine design pattern
+* You have to use the singleton design pattern
+* You have to use abstract class
+* You have to make inheritance
+* You have to make events
+* You have to clean 
+
+You also had to implement one of those POO notions :
+* Polymorphism
+* Interface
+* Delegate
+* async function
+* You have to use virtual method
+* operator overloading
+
+
 ## SFML Window
 The SFML window is used to open a window and display graphics on it with the "game" loop.
 To create a window, you need to create a class to render this window.
@@ -97,16 +115,16 @@ If you want to move, you need to change the state of the player to "Move".
 
 ## Release
 
-### Project Release
+### <ins>Project Release</ins>
 You have to make a release of your project and add it to your repository.
 To make a release of your project, you need to use the command line.  
-```dotnet publish -c Release -r win-x64 --self-contained false```  
+```dotnet publish -c Release -r win-x64 --self-contained false```   
 This command will create a folder named "bin" in your project folder.  
 In this folder, you will find a folder named "Release" and a folder named "netcoreapp3.1".  
 In the "netcoreapp3.1" folder, you will find a folder named "win-x64" and a folder named "publish".  
 In the "publish" folder, you will find your executable file.
 
-### Release Branch
+### <ins>Release Branch</ins>
 It's best practice to create a separate branch for your release, rather than releasing from your master branch. This allows you to continue working on new features in the master branch while the release is being prepared.
 
 To create a new release branch, follow these steps:
@@ -116,7 +134,7 @@ To create a new release branch, follow these steps:
 * Replace **release-name** with a descriptive name for your release (e.g. v1.0, v2.0, etc.)  
 * Push Your release project
 
-### Release Github
+### <ins>Release Github</ins>
 Now that you have prepared your release branch, you can create a release on GitHub. To do this, follow these steps:
 
 * Go to your repository on GitHub and click on the Releases tab
@@ -130,14 +148,34 @@ Now that you have prepared your release branch, you can create a release on GitH
 ## Evaluation
 You are mainly evaluated on the following points :
 * The quality of your code
-* The quality of your documentation
+* The quality of your **deliverable document**
 * The good use of the design pattern
 * The good use of the POO
 
 [Here is the evaluation table]()
 
+### <ins>Deliverable document</ins>
+You had to make a document with at least 15 pages about your project.
+This document must contain :
+* The description of your project
+* A litle project specification
+* A minimum of 2 diagrams (UML, State Machine, ...)
+  * A class diagram
+  * A flowchart
+  * A network diagram
+  * A state machine diagram
+  * An activity diagram
+  * A sequence diagram
+  * ...
+* schemas
+* Sreenshots
 
+If you make a game you can get inspired by Game Design Document (GDD). Somes of them are accessible on internet.
 
+## Bonus
+You can earn somes point by implementing the following features :
+* POO Interface
+* Polymorphism
 
 
 
