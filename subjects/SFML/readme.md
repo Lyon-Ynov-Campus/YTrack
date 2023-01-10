@@ -35,6 +35,18 @@ SFML is mostly used for 2D games, but you are free to make software, simulations
 * Setup you state machine
 * Add your functionalities
 
+## Professionalism
+You have to make a **professional** project.
+This means that you have to :
+* Make a **release** of your project and verify that it works
+* Make a readme file with all the information about your project
+  * A readme is made in markdown and must be well formated
+* Your code must have **comments** to explain what you do
+* Your code must be **clean** and **readable**
+* Your deliverable must be well **organized** and **formated**
+* You have to return you project **on time**
+* Your commit must have consistent names
+
 ## Constraints
 * You have to use C# and SFML
 * You have to use the state machine design pattern
@@ -42,14 +54,13 @@ SFML is mostly used for 2D games, but you are free to make software, simulations
 * You have to use abstract class
 * You have to make inheritance
 * You have to make events
-* You have to clean 
 
 You also had to implement one of those POO notions :
 * Polymorphism
 * Interface
 * Delegate
 * async function
-* You have to use virtual method
+* virtual method
 * operator overloading
 
 
@@ -89,7 +100,7 @@ You can find more information about the SFML window [here](https://www.sfml-dev.
 ⚠️ Do not forget to manage your framerate correctly. ⚠️
 
 ## State Machine
-The state machine is a design pattern used to manage the different states of your game and some object of your game.  
+The state machine is a **design pattern** used to **manage** the different states of your game and some object of your game.  
 For example a game can have different states (this is example, you can have more or less states in your project) :
 * Menu
 * Settings
@@ -109,19 +120,23 @@ For example, a player can have different states :
 * Climb
 * ...
 
-Thoses states are used to manage the different actions of your object.  
+Thoses states are used to **manage the different actions of your object**.  
 For example, if the player is in the "Idle" state, he can't move, jump, attack, crouch or climb.  
 If you want to move, you need to change the state of the player to "Move".  
+
+## Singleton
+You have to use the singleton design pattern to manage your state machine.
+The singleton design pattern is used to **create only one instance of a class**. This class is public and static to be accessible from everywhere in your project.
 
 ## Release
 
 ### <ins>Project Release</ins>
-You have to make a release of your project and add it to your repository.
+You have to make a **release** of your project and add it to your repository.
 To make a release of your project, you need to use the command line.  
 ```dotnet publish -c Release -r win-x64 --self-contained false```   
 This command will create a folder named "bin" in your project folder.  
-In this folder, you will find a folder named "Release" and a folder named "netcoreapp3.1".  
-In the "netcoreapp3.1" folder, you will find a folder named "win-x64" and a folder named "publish".  
+In this folder, you will find a folder named "Release" and a folder named "net6.0".  
+In the "net6.0" folder, you will find a folder named "win-x64" and a folder named "publish".  
 In the "publish" folder, you will find your executable file.
 
 ### <ins>Release Branch</ins>
@@ -151,6 +166,8 @@ You are mainly evaluated on the following points :
 * The quality of your **deliverable document**
 * The good use of the design pattern
 * The good use of the POO
+* The given constraint
+* The professionalism of your project
 
 [Here is the evaluation table]()
 
@@ -176,6 +193,7 @@ If you make a game you can get inspired by Game Design Document (GDD). Somes of 
 You can earn somes point by implementing the following features :
 * POO Interface
 * Polymorphism
+* Memory release
 
 
 
