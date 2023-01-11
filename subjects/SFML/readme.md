@@ -12,7 +12,6 @@ SFML is mostly used for 2D games, but you are free to make software, simulations
 [C# Documentation : Class](https://www.tutorialsteacher.com/csharp/csharp-class)  
 [C# Documentation : Accessor](https://bpesquet.developpez.com/tutoriels/csharp/programmation-orientee-objet-csharp/?page=principaux-concepts-objets)  
 [C# Documentation : Polymorphism](https://blog.alphorm.com/le-polymorphisme-dans-loriente-objet/)  
-[C# Documentation : Polymorphism example](link to my doc)  
 [C# Documentation : Abstract Class](https://waytolearnx.com/2019/09/classe-abstraite-en-csharp.html)  
 [C# Documentation : Virtual Method](https://www.web-dev-qa-db-fra.com/fr/c%23/quelles-sont-les-methodes-virtuelles/957784952/)  
 [C# Documentation : Interface](https://www.tutorialsteacher.com/csharp/csharp-interface)  
@@ -27,6 +26,8 @@ SFML is mostly used for 2D games, but you are free to make software, simulations
 [SFML Documentation : 2nd Tutorial](http://sdz.tdct.org/sdz/creez-des-applications-2d-avec-sfml.html) ⚠️ not in C#  
 [Design pattern : State](https://refactoring.guru/design-patterns/state)  
 [Design pattern : Singleton](https://fr.wikipedia.org/wiki/Singleton_(patron_de_conception))  
+[Branch and commit naming](https://www.codeheroes.fr/2020/06/29/git-comment-nommer-ses-branches-et-ses-commits/)
+[Commit naming](https://commitizen-tools.github.io/commitizen/)
 
 ## Instructions
 * Create a new repository on the github classroom
@@ -128,6 +129,8 @@ If you want to move, you need to change the state of the player to "Move".
 You have to use the singleton design pattern to manage your state machine.
 The singleton design pattern is used to **create only one instance of a class**. This class is public and static to be accessible from everywhere in your project.
 
+![Singleton schema](https://refactoring.guru/images/patterns/diagrams/singleton/structure-fr.png?id=c61f45af3dee82ffdbe7a737fa33efa3)
+
 ## Release
 
 ### <ins>Project Release</ins>
@@ -169,13 +172,14 @@ You are mainly evaluated on the following points :
 * The given constraint
 * The professionalism of your project
 
-[Here is the evaluation table]()
+[Here is the evaluation table for the project](https://moodle.ynov.com/pluginfile.php/716113/mod_resource/content/1/Projet.pdf)
+[Here is the evaluation table for the deliverable document](https://moodle.ynov.com/pluginfile.php/716114/mod_resource/content/1/Document.pdf)
 
 ### <ins>Deliverable document</ins>
-You had to make a document with at least 15 pages about your project.
+You had to make a document about your project.
 This document must contain :
 * The description of your project
-* A litle project specification
+* A little project specification
 * A minimum of 2 diagrams (UML, State Machine, ...)
   * A class diagram
   * A flowchart
@@ -184,8 +188,13 @@ This document must contain :
   * An activity diagram
   * A sequence diagram
   * ...
-* schemas
-* Sreenshots
+* Useful screenshots to describe your functionnalities
+* Description of your functionnalities
+* Justification of your choices
+* optionnal schema 
+  * Design thinking
+  * Mechanics
+  * Algorithm
 
 If you make a game you can get inspired by Game Design Document (GDD). Somes of them are accessible on internet.
 
