@@ -67,7 +67,8 @@ You also had to implement one of those POO notions :
 
 ## SFML Window
 The SFML window is used to open a window and display graphics on it with the "game" loop.
-To create a window, you need to create a class to render this window.
+To create a window, you need to create a class to render this window.   
+
 ```using SFML.Window;
 
 namespace MyGame
