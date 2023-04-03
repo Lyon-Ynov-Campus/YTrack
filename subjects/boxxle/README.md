@@ -18,7 +18,7 @@ All number have signification :
 
 ### Core features
 - You will use a `requestAnimationFrame` recursive loop.
-- You can use a `CSS grid` to implement the game.
+- You must use a `CSS grid` to implement the game.
 - An HTML element representing a box to move, must be created or moved each time it is in colision with player.
 - HTML elements are created each time a level is generated.
 - When an arrow key is pressed, the player must move.
