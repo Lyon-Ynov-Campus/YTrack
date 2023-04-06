@@ -1,5 +1,5 @@
  /**
-  * You wan modify thes constants as you want or get rid of it, your choice
+  * You can modify these constants as you want or get rid of it, your choice
   * */ 
 
   const GRID_WIDTH = 50;
