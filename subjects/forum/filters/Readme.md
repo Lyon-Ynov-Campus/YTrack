@@ -18,10 +18,6 @@ This project will help you learn about:
 - JSON files and format
 - Go routines
 
-### Hints
-
-- You have to pay attention to the locations. For example Seattle, Washington, USA **is part of** Washington, USA.
-
 ### Instructions
 
 - The backend must be written in **Go**.
