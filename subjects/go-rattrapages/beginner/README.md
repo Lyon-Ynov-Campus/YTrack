@@ -15,7 +15,7 @@ If the result of one number is equal to 6, you must add a random number between 
 ``` golang
 ExplosiveRoll(7);
 
-/* this can display
+/* some examples that can be displayed 
  3
  1
  7
