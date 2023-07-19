@@ -1,6 +1,6 @@
 # Deminer
 
-## Objectif
+## Objective
 Design a program where a character and a bomb are positioned on a grid. The character must locate the bomb, but its precise position is unknown. The only information the character has is the direction of the bomb.
 
 ## Instructions
