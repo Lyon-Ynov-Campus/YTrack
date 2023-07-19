@@ -20,7 +20,7 @@ The function should be able to determine the **direction** represented by a stri
 - 'DL' (Down Left)
 - 'DR' (Down Right)  
 
-⚠️ Only the direction bomb direction can be determine with the bomb position ! ⚠️
+⚠️ Only the bomb **direction** can be determine with the bomb **position** ! It mean that you can't use the bomb **position** to move the character⚠️
 
 The player can only move according to the given direction and **needs to reach the bomb in the quickest way possible**.
 
