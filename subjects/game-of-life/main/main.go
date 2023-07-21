@@ -3,7 +3,6 @@ package main
 import (
 	"life"
 	"log"
-	"math/rand"
 	"time"
 
 	"github.com/gdamore/tcell"
@@ -33,7 +32,7 @@ func main() {
 
 	for loop {
 		// Calculate new state
-		life.Update()
+		// life.Update()
 		// Clear UI
 		s.Clear()
 		//Draw UI
@@ -44,17 +43,7 @@ func main() {
 	}
 }
 
-func MakeRandomGrid(x, y int) [][]bool {
-	grid := make([][]bool, y, y)
-	for i, _ := range grid {
-		row := make([]bool, x, x)
-		for j := 0; j < x; j++ {
-			row[j] = rand.Intn(2) == 1
-		}
-		grid[i] = row
-	}
-	return grid
-}
+func MakeRandomGrid(x, y int) [][]bool {}
 
 func PollExit(s tcell.Screen, loop *bool) {
 	// Poll for key/mouse
