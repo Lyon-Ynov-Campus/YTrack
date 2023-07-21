@@ -43,7 +43,9 @@ func main() {
 	}
 }
 
-func MakeRandomGrid(x, y int) [][]bool {}
+func MakeRandomGrid(x, y int) {
+	panic("unimplemented")
+}
 
 func PollExit(s tcell.Screen, loop *bool) {
 	// Poll for key/mouse

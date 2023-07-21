@@ -6,7 +6,9 @@ func InitializeGridCopy(newGrid [][]bool) {
 	grid = newGrid
 }
 
-func Update() {}
+func Update() {
+	panic("unimplemented")
+}
 
 func intMin(a, b int) int {
 	if a < b {
