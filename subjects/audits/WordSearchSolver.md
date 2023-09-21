@@ -5,7 +5,7 @@ Execute the code with the command ```Go run main.go```
 ## Essential :
 * Does the program show you the provided grid with letters ?
 
-## Numbers of words :
+## Number of words :
 * Does the program return 25% of words ?
 * Does the program return 50% of words ?
 * Does the program return 75% of words ?
