@@ -2,7 +2,7 @@
 
 Execute the code with the command ```Go run main.go```
 
-## Essential :
+## Essentials :
 * Does the program print the provided grid with letters ?
 * Does the program only use the 4 packages allowed :
 	```
