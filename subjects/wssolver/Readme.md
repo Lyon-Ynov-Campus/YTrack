@@ -1,7 +1,7 @@
 # Word Scrabble Solver
 ## Objectives
 
-Word Scramble Solver consists on receiving a Word Scramble field and finding all the words contained in it.
+Word Scrabble Solver consists on receiving a Word Scramble field and finding all the words contained in it.
 
 The given field will always be of size [10]x[10] and will always contain runes.
 
