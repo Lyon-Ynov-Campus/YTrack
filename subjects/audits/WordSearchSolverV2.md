@@ -5,10 +5,9 @@ Execute the code with the command ```Go run main.go```
 ## Essential :
 * Does the program print the provided grid with letters ?
 
-## Questions
-* Does the program show you these words : `pâtisserie - grains - jute - café - croissant - tasse - lait - verre - assiette`
-  with this grid :
-  
+## Grid 1
+You have this grid of letters :
+
   ```golang
   var field = [10][10]rune{
 	{'s', 'h', 'f', 'h', 'm', 'g', 'm', 't', 'i', 'f'},
@@ -23,11 +22,17 @@ Execute the code with the command ```Go run main.go```
 	{'a', 'a', 's', 's', 'i', 'e', 't', 't', 'e', 'i'},
   }
   ```
-  
-*  Does the program show you these words : `crêpes - oeufs - haricots - lard - café - napperon - fourchette - baies - couteau - patates - eau`
-   with this grid :
-   ```golang
-   var field = [10][10]rune{
+
+* Does the program show you these words by lines : `pâtisserie - grains - verre - assiette`
+* Does the program show you these words by columns : `jute - croissant`
+* Does the program show you these words by diagonal line (from up to down) : ``
+* Does the program show you these words by diagonal line (from down to up) : `café - tasse - lait`
+
+## Grid 2
+You have this grid of letters :
+
+  ```golang
+  var field = [10][10]rune{
 	{'c', 'o', 't', 'd', 't', 'r', 's', 'n', 'e', 'c'},
 	{'r', 'e', 'e', 'o', 't', 'e', 'o', 'h', 'u', 'c'},
 	{'ê', 'u', 'h', 'h', 't', 'r', 'l', 'a', 'o', 'a'},
@@ -39,7 +44,35 @@ Execute the code with the command ```Go run main.go```
 	{'f', 'o', 'u', 'r', 'c', 'h', 'e', 't', 't', 'e'},
 	{'b', 'a', 'i', 'e', 's', 't', 'h', 'n', 'w', 's'},
    }
-   ```
+  ```
+
+* Does the program show you these words by lines : `fourchette - baies`
+* Does the program show you these words by columns : `crêpes - oeufs - café`
+* Does the program show you these words by diagonal line (from up to down) : `haricots - lard`
+* Does the program show you these words by diagonal line (from down to up) : `couteau - eau - napperon - patates`
+
+## Grid 3
+You have this grid of letters :
+
+  ```golang
+  var field = [10][10]rune{
+	{'s', 'p', 'd', 'a', 'e', 'e', 'v', 'i', 'd', 'r'},
+	{'p', 'a', 'g', 'r', 'm', 'f', 'v', 'e', 'n', 't'},
+	{'t', 'o', 'n', 'm', 'i', 'd', 'n', 'u', 'd', 'w'},
+	{'y', 't', 'e', 't', 'i', 'p', 'a', 'c', 'e', 'v'},
+	{'n', 'f', 'e', 'u', 'é', 'e', 'i', 'r', 'h', 'i'},
+	{'m', 'e', 'd', 'i', 't', 'a', 't', 'i', 'o', 'n'},
+	{'c', 't', 'r', 'a', 'u', 'l', 'i', 'w', 'r', 't'},
+	{'a', 'i', 'b', 'q', 'd', 'a', 'a', 'o', 's', 'r'},
+	{'e', 'f', 'e', 'n', 'e', 'c', 'o', 'h', 'a', 'e'},
+	{'e', 'e', 'f', 'l', 'e', 'a', 'o', 't', 'r', 'i'},
+   }
+  ```
+
+* Does the program show you these words by lines : `vent - feu`
+* Does the program show you these words by columns : `lac - dehors`
+* Does the program show you these words by diagonal line (from up to down) : `santé - ciel`
+* Does the program show you these words by diagonal line (from down to up) : `bateau - eau - femme - yoga - quai`
 
 ## Code Quality
 * clear and concise code (1 function -> 1 fonctionnality)
