@@ -35,7 +35,7 @@ You have this grid of letters :
 
 * Does the program show you these words by lines : `pâtisserie - grains - verre - assiette`
 * Does the program show you these words by columns : `jute - croissant`
-* Does the program show you these words by diagonal line (from up to down) : ``
+* Does the program show you nothing by diagonal line (from up to down) ?
 * Does the program show you these words by diagonal line (from down to up) : `café - tasse - lait`
 
 ## Grid 2
