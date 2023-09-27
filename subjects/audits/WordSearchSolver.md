@@ -1,6 +1,6 @@
 # Word Search Solver
 
-Execute the code with the command ```Go run main.go```
+Execute the code with the command ```go run main.go```
 
 ## Essentials :
 * Does the program print the provided grid with letters ?
