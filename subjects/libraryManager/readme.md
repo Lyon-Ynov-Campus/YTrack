@@ -29,6 +29,7 @@ This function **must have a filename parameter**.
 - Features
 - The readability and cleanliness of the code
 - Error management
+- Ability to search for information and read documentation
 
 ## Contraints
 You are not allowed to use ChatGPT or others IA tool to make this exercice.
