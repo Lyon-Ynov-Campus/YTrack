@@ -5,7 +5,7 @@ Develop a simplified Student Records Management System in Go. The system should 
 
 ## Instructions
 ### Datas structure
-- You have to create a `Student` structure able to contains thoses information on a book :  
+- You have to create a `Student` structure able to contains thoses informations :  
   - Name
   - Age
   - Grade
