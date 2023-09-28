@@ -5,12 +5,12 @@ You are in charge of developping a simplified **library manager** for a reader c
 
 ## Instructions
 ### Datas structure
-- You have to create a `Book` structure able to contains thoses information on a book :  
+- You have to create a `Book` structure able to contain those informations on a book :  
   - Title
   - Author
   - Publication Date
   - Genre
-- Create a `Library` structure that contain a **list a books**  
+- Create a `Library` structure that contain a **list of books**  
   
 ### Files manipulation
 - Write a function to **load a library** from a file, parse the file and return an instance of `Library`. If the file doesn't exist, return an error.  
