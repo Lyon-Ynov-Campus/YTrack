@@ -28,5 +28,7 @@ Save people informations in a structure
   - Quit -> Button
 
 ### Datas storage
-- Make a function "Save" that save all form input in the **Person** structure
+- Make a function "Save" that save all form input in the **Person** structure  
+  - To get a value from a form, you have to use [Type asertion](https://go.dev/tour/methods/15)  :   
+        ```form.GetFormItemByLabel("Title").(*tview.DropDown).GetCurrentOption()```
 
