@@ -1,7 +1,9 @@
 # ID Manager
 
 ## Objectives
-Save people informations in a structure
+Create a form to enter personal data using TView
+Save that data in a structure
+Display the data in the terminal
 
 ## Documentation
 - [TView]([TView](https://github.com/rivo/tview))
@@ -10,7 +12,7 @@ Save people informations in a structure
 
 ## instructions
 
-### Datas structure
+### Data Structure
 - You have to create a Person structure able to contain those informations :  
   - Title (Mr, Ms, Mrs, Dr...)
   - FirstName
@@ -19,7 +21,7 @@ Save people informations in a structure
   - Password
 
 ### TView form
-- You have to make a TView form with thoses input :
+- You have to make a TView form with the following inputs :
   - Title (Mr, Ms, Mrs, Dr...) -> DropDown menu
   - Firstname -> InputField
   - LastName -> InputField
@@ -27,15 +29,14 @@ Save people informations in a structure
   - Password -> PasswordField
   - Quit -> Button
 
-### Datas storage
+### Data storage
 - Make a function "Save" that save all form input in the **Person** structure  
   - To get a value from a form, you have to use [Type asertion](https://go.dev/tour/methods/15)  :   
         ```form.GetFormItemByLabel("Title").(*tview.DropDown).GetCurrentOption()```
 
-### Display datas
-- Make a function "Display" that display **all Person** structure values in terminal or in a TView table
+### Display data
+- Make a function "Display" that displays **all Person** structure values in terminal or a TView table
 
 ## Constraints
-- You have to register minimum 2 persons
+- You have to register a minimum 2 of persons
 - Do not use AI tools
-
