@@ -32,3 +32,10 @@ Save people informations in a structure
   - To get a value from a form, you have to use [Type asertion](https://go.dev/tour/methods/15)  :   
         ```form.GetFormItemByLabel("Title").(*tview.DropDown).GetCurrentOption()```
 
+### Display datas
+- Make a function "Display" that display **all Person** structure values in terminal or a TView table
+
+## Constraints
+- You have to register minimum 2 persons
+- Do not use AI tools
+
