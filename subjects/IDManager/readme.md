@@ -10,10 +10,10 @@ Display the data in the terminal
 - [Golang Structure](https://gobyexample.com/structs)
 - [Golang Structure 2](https://www.w3schools.com/go/go_struct.php)
 
-## instructions
+## Instructions
 
 ### Data Structure
-- You have to create a Person structure able to contain those informations :  
+- You have to create a Person structure able to contain these informations :  
   - Title (Mr, Ms, Mrs, Dr...)
   - FirstName
   - LastName
