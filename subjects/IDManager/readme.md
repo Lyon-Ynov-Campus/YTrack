@@ -2,7 +2,9 @@
 
 ## Objectives
 Create a form to enter personal data using TView
+
 Save that data in a structure
+
 Display the data in the terminal
 
 ## Documentation
