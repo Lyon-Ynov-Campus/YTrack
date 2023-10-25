@@ -13,7 +13,7 @@ Display the data in the terminal
 ## Instructions
 
 ### Data Structure
-- You have to create a Person structure able to contain these informations :  
+- You have to create a Person structure able to contain the following data :  
   - Title (Mr, Ms, Mrs, Dr...)
   - FirstName
   - LastName
