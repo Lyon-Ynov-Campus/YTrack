@@ -33,7 +33,7 @@ Save people informations in a structure
         ```form.GetFormItemByLabel("Title").(*tview.DropDown).GetCurrentOption()```
 
 ### Display datas
-- Make a function "Display" that display **all Person** structure values in terminal or a TView table
+- Make a function "Display" that display **all Person** structure values in terminal or in a TView table
 
 ## Constraints
 - You have to register minimum 2 persons
