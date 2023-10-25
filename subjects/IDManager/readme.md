@@ -13,7 +13,7 @@ Display the data in the terminal
 ## Instructions
 
 ### Data Structure
-- You have to create a Person structure able to contain the following data :  
+- Create a Person structure able to contain the following data :  
   - Title (Mr, Ms, Mrs, Dr...)
   - FirstName
   - LastName
@@ -21,7 +21,7 @@ Display the data in the terminal
   - Password
 
 ### TView form
-- You have to make a TView form with the following inputs :
+- Make a TView form with the following inputs :
   - Title (Mr, Ms, Mrs, Dr...) -> DropDown menu
   - Firstname -> InputField
   - LastName -> InputField
@@ -30,7 +30,7 @@ Display the data in the terminal
   - Quit -> Button
 
 ### Data storage
-- Make a function "Save" that save all form input in the **Person** structure  
+- Make a function "Save" that saves all form input in the **Person** structure  
   - To get a value from a form, you have to use [Type asertion](https://go.dev/tour/methods/15)  :   
         ```form.GetFormItemByLabel("Title").(*tview.DropDown).GetCurrentOption()```
 
