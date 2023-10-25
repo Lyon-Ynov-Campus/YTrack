@@ -6,7 +6,7 @@ Save that data in a structure
 Display the data in the terminal
 
 ## Documentation
-- [TView]([TView](https://github.com/rivo/tview))
+- [TView](https://github.com/rivo/tview)
 - [Golang Structure](https://gobyexample.com/structs)
 - [Golang Structure 2](https://www.w3schools.com/go/go_struct.php)
 
@@ -31,7 +31,7 @@ Display the data in the terminal
 
 ### Data storage
 - Make a function "Save" that saves all form input in the **Person** structure  
-  - To get a value from a form, you have to use [Type asertion](https://go.dev/tour/methods/15)  :   
+  - To get a value from a form, you have to use [Type assertion](https://go.dev/tour/methods/15)  :   
         ```form.GetFormItemByLabel("Title").(*tview.DropDown).GetCurrentOption()```
 
 ### Display data
