@@ -20,7 +20,7 @@ You will need to submit a **pre-made mock-up** of the site's style.
 Here is some links to do so:
 > - Mockup your website --> [Mockup](https://www.mockupworld.co/) or [Figma](https://www.figma.com/fr/)
 > - The all site must be responsive --> [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [Media](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
-> - Interesting websites for [Fonts](https://www.fontpair.co/) and [Colors](https://coolors.co/)
+> - Interesting websites for [Fonts](https://www.fontpair.co/) and [RealtimeColors](https://www.realtimecolors.com/))
 
 
 ### Database
@@ -37,7 +37,7 @@ You must at least add these features :
 
 You have the obligation to use complex golang templates such as in those examples :
 
-> - [Templates Golang](https://developer.spotify.com/documentation/web-api/)
+> - [Templates Golang](https://gowebexamples.com/templates/)
 > - [text/template](https://pkg.go.dev/text/template) (at the end of the doc)
 
 
