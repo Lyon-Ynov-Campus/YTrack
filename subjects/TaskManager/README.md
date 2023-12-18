@@ -49,7 +49,7 @@ There is an example of how to use it in a html page :
 <div class="task-status">Status : <span class="done">Done</span></div>
 ```
 
-You must use these css classes in order to show the status by colors like the example below. If the state is "Done," display the status text in green. If the state is "In Progress," display the status text in orange. If the state is "To Do," display the status text in red.
+You must use these css classes in order to show the status by colors like the example below. If the state is "Done" display the status text in green. If the state is "In Progress" display the status text in orange. If the state is "To Do" display the status text in red.
 
 ## Example of the expected result
 
