@@ -1,4 +1,4 @@
-# Examen intermédiaire - Gestionnaire de tâches 
+# Task Manager
 
 ## Objectives
 
