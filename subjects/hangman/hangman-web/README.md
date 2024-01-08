@@ -47,7 +47,7 @@ The main page must have at least:
 - HTTP server must be written in _Go_.
 - HTML templates must be in project root directory _templates_.
 - The code must respect the [good practices](https://public.01-edu.org/subjects/good-practices/).
-- Use [Part 2 of hangman-classic] (https://lyon-ynov-campus.github.io/YTrack/subjects/hangman/hangman-classic/).
+- Use Hangman Project as an imported package.
 
 ### Usage
 
