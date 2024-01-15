@@ -25,7 +25,10 @@ Loki project consist on creating a MVVM multi-platform app with the C# .Net MAUI
 - Make a windows UI with XAML.
 - Make a Android UI with XAML.
 - Make your Model, ViewModel and View classes with C# .NET MAUI.
-- Retrieve data from a API and display it on the app.
+- Retrieve data from a API and display it on the app via data binding.
 - Make a search bar to search for data on the API.
 - Make a scroll view to display the data.
+- 3 pages minimum.
+- Constants value must be in a separate file. (ex: `public const string API_URL = "https://api.com";`)
+- UI must be clean and user friendly.
 - The code must respect the [Good Practices](https://public.01-edu.org/subjects/good-practices/).
