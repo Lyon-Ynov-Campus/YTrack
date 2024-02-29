@@ -15,9 +15,11 @@ You have to create a typist game. The goal is to type the words displayed on the
 - Create an HTML page with a start button.
 - Create a JS file and link it to your HTML page.
 - Create a 1 minute timer that start when the player press a start button.
-- Create a function that generate a random sentence from an array of words.
+- Create a function that generate a random sentence.
 - Display random words when the start button is clicked.
 - Create a function that check if the key pressed is the same as the current word letter.
+  - If they are not the same, put the letter or the word in red.
+  - If they are the same, put the letter or the word in green.
 - Display the number of word the player as type per minutes.
 
 ## Notion
