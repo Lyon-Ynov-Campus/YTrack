@@ -3,9 +3,9 @@ In this project you will create a browser-based puzzle game.
 
 ### Getting started
 You will need to create a public repository with the name `boxxle`.
-You can find a very very basic, <a href="./baseCode/index.html" download> html </a>, <a href="https://drive.google.com/file/d/1ootsYGHMz-KbK_ZJldk-i1__M3oAYPFX/view?usp=sharing" download> index.js </a>, <a href="./baseCode/level.js" download> level.js </a> and <a href="./baseCode/style.css" download> the css file </a> to start with if you want, you can also start from zero.
+You can find a very very basic, <a href="https://drive.google.com/file/d/1ootsYGHMz-KbK_ZJldk-i1__M3oAYPFX/view?usp=sharing" download> html </a>, <a href="https://drive.google.com/file/d/1k42Zsl7VpDnne5zaYnL3L0uKHe5KtX7R/view?usp=sharing" download> index.js </a>, <a href="https://drive.google.com/file/d/1-ClHs7YETMasE1rlsWhoRNY5M_tOwoaT/view?usp=sharing" download> level.js </a> and <a href="https://drive.google.com/file/d/1EB6C3hi_9VXlnLepytbi2LIbrNdhz6O-/view?usp=drive_link" download> the css file </a> to start with if you want, you can also start from zero.
 
-You will find a <a href="./baseCode/level.js" download> levels.js </a> file, all your map generation will be based on this file.
+You will find a <a href="https://drive.google.com/file/d/1k42Zsl7VpDnne5zaYnL3L0uKHe5KtX7R/view?usp=sharing" download> levels.js </a> file, all your map generation will be based on this file.
 
 It contain multidimensional array that represent levels.
 All number have signification :
