@@ -30,16 +30,25 @@ The objective of this project is to create a web application which offers at lea
 2. Create a game selection page where users can choose between at least 2 games.
 3. Create a game page where users can play the game.
 4. Songs data must be get from an ``API``.
-
+   
 ## Constraints
 - The backend must be written in Golang.
 - the backent must be ``object-oriented``.
 - The frontend must be written in HTML, CSS, and JavaScript.
 - The application must use websockets.
 - The application must use a database to store user information and scores.
-- The application must be hosted on a server.
+- 1 game must be a multiplayer game. you can choose the one you want.
+- A readme file explaining how to run the application must be provided and tested. If the readme file is not provided or it does not allow the application to run, the project will not be considered and you can get a 0.
+- The project must be done with a group of 3 or 4.
+
+## Multiplayer game instructions
+1. Create a room system where users can create a room and invite other users to join.
+2. The host of the room must be able to start the game. 
 
 ## Bonus
+- host the application on a online server.
 - Add a chat feature to the application.
 - Add a friend system to the application.
 - Add a leaderboard to the application.
+
+You can propose your own game idea related to music but it must be approved by the mentor before starting the project.
