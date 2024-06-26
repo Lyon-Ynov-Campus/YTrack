@@ -26,12 +26,12 @@ The player must move in the indicated direction and reach the bomb in the quicke
 
 ## Example Scenario
 
-'''o o o o o
+```o o o o o
 o P o o o
 o o o o o
 o o o X o
 o o o o o
-'''
+```
 
 The player ('P') is at position (1, 1).  
 The bomb ('X') is at position (3, 3).  
