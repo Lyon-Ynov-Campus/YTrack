@@ -39,32 +39,32 @@ The function should determine the correct sequence of directions for the player 
 
 ## Step to solve the problem   
 1. Understand the Problem Statement:   
-- You have a grid with a player ('P') and a bomb ('X').
-- The player needs to reach the bomb by moving in the correct direction based on their relative positions.
+  - You have a grid with a player ('P') and a bomb ('X').
+  - The player needs to reach the bomb by moving in the correct direction based on their relative positions.
 
 2. Identify the Player and Bomb Positions:   
-- Loop through the grid to find the coordinates of the player ('P') and the bomb ('X').  
+  - Loop through the grid to find the coordinates of the player ('P') and the bomb ('X').  
 
 3. Determine the Direction:   
-- Based on the relative positions of the player and the bomb, decide the direction the player should move.
-- For example:
-  - If the player is above and to the left of the bomb, they should move 'DR' (Down Right).
-  - If the player is directly above the bomb, they should move 'D' (Down).
+  - Based on the relative positions of the player and the bomb, decide the direction the player should move.
+  - For example:
+    - If the player is above and to the left of the bomb, they should move 'DR' (Down Right).
+    - If the player is directly above the bomb, they should move 'D' (Down).
     
 4. Create a Function to Calculate the Direction:
-- Write a helper function that takes the player's coordinates and the bomb's coordinates and returns the direction string ('U', 'D', 'L', 'R', 'UL', 'UR', 'DL', 'DR').
+  - Write a helper function that takes the player's coordinates and the bomb's coordinates and returns the direction string ('U', 'D', 'L', 'R', 'UL', 'UR', 'DL', 'DR').
 
 5. Iteratively Move the Player:
-- Use a loop to move the player in the direction provided by the helper function.
-- Update the player's coordinates accordingly.
-- Append each move to a list of directions.
+  - Use a loop to move the player in the direction provided by the helper function.
+  - Update the player's coordinates accordingly.
+  - Append each move to a list of directions.
 
 6. Stop When the Player Reaches the Bomb:
-- Continue the loop until the player's coordinates match the bomb's coordinates.
+  - Continue the loop until the player's coordinates match the bomb's coordinates.
 
 ## Constraint
-- You are not allowed to use ChatGPT or others IA tool to make this exercice.
-- Ensure that the player reaches the bomb in the quickest way possible using the provided directions.
+  - You are not allowed to use ChatGPT or others IA tool to make this exercice.
+  - Ensure that the player reaches the bomb in the quickest way possible using the provided directions.
 
 ### Scenario to validate
 
