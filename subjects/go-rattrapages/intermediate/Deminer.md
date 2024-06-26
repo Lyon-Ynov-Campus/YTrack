@@ -20,7 +20,7 @@ The function should determine the direction in which the player should move to g
 - 'DL' (Down Left)
 - 'DR' (Down Right)
   
-Important Note: Only the direction **towards the bomb** can be determined; you cannot directly use the **bomb's position** to guide the player's movements.  
+Important Note: Only the direction **towards the bomb** can be determined thanks to the bomb position; you cannot directly use the **bomb's position** to guide the player's movements.  
 
 The player must move in the indicated direction and reach the bomb in the quickest way possible.  
 
