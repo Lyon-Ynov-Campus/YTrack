@@ -1,28 +1,42 @@
 # Deminer
 
 ## Objective
-Design a program where a character and a bomb are positioned on a grid. The character must locate the bomb, but its precise position is unknown. The only information the character has is the direction of the bomb.
+Design a program where a character (player) and a bomb are positioned on a grid. The character must locate and reach the bomb, but its precise position is unknown to the character. The only information the character has is the direction to move towards the bomb.
 
 ## Instructions
-The task is to create a grid-based function where the dimensions of the grid are defined by an X and Y size. This grid will have several characters on it:
+The task is to create a function that operates on a grid with defined dimensions (X and Y). The grid will have the following representations:
 
-An empty space will be represented by an `'o'` character.
-A player will be represented by a `'P'` character.
-A bomb will be represented by an `'X'` character.
-The function should be able to determine the **direction** represented by a string in which the player character can move based on the bomb's **direction**. The possible directions include:
+An empty space is represented by an 'o' character.
+The player is represented by a 'P' character.
+The bomb is represented by an 'X' character.
+The function should determine the direction in which the player should move to get closer to the bomb. The directions are represented by strings and include:
 
 - 'U' (Up)
 - 'D' (Down)
 - 'R' (Right)
 - 'L' (Left)
-- 'UL' (Up left)
+- 'UL' (Up Left)
 - 'UR' (Up Right)
 - 'DL' (Down Left)
-- 'DR' (Down Right)  
+- 'DR' (Down Right)
+  
+Important Note: Only the direction **towards the bomb** can be determined; you cannot directly use the **bomb's position** to guide the player's movements.  
 
-⚠️ Only the bomb **direction** can be determine with the bomb **position** ! It mean that you can't use the bomb **position** to move the character⚠️
+The player must move in the indicated direction and reach the bomb in the quickest way possible.  
 
-The player can only move according to the given direction and **needs to reach the bomb in the quickest way possible**.
+## Example Scenario
+
+'''o o o o o
+o P o o o
+o o o o o
+o o o X o
+o o o o o
+'''
+
+The player ('P') is at position (1, 1).  
+The bomb ('X') is at position (3, 3).  
+The function should determine the correct sequence of directions for the player to reach the bomb.  
 
 ## Constraint
-You are not allowed to use ChatGPT or others IA tool to make this exercice.
+- You are not allowed to use ChatGPT or others IA tool to make this exercice.
+- Ensure that the player reaches the bomb in the quickest way possible using the provided directions.
