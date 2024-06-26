@@ -40,3 +40,57 @@ The function should determine the correct sequence of directions for the player 
 ## Constraint
 - You are not allowed to use ChatGPT or others IA tool to make this exercice.
 - Ensure that the player reaches the bomb in the quickest way possible using the provided directions.
+
+### Scenario to validate
+
+```o o o o o o o o o o
+o o o o o o o o o o
+o o o o o o o o o o
+o o o o o o o o o o
+o o o o P o o o o o
+o o o o o o o o o o
+o o o o o o o o o o
+o o o o o o o X o o
+o o o o o o o o o o
+o o o o o o o o o o
+```
+
+```o o o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+o X o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+o o o o o o o o P o o o o o o
+o o o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+o o o o o o o o o o o o o o o
+```
+
+```o
+o
+o
+P
+o
+o
+o
+o
+o
+o
+o
+o
+o
+X
+o
+o
+o
+o
+o
+o
+o
+````
