@@ -10,9 +10,10 @@
 
 ```
 Amount of words : 5
-Amount of characters : 21
+Amount of characters : 25
 Amount of vowels : 10
 Amount of consonants : 11
+No word passed as parameter
 ```
 
 ###### Does the function returns the value above?
@@ -21,7 +22,7 @@ Amount of consonants : 11
 
 ```
 Amount of words : 5
-Amount of characters : 26
+Amount of characters : 30
 Amount of vowels : 11
 Amount of consonants : 15
 yakak occurs 0 times.
@@ -33,7 +34,7 @@ yakak is not a palindrome.
 ##### Try running the function with the arguments: `"", "!"`
 
 ```
-Amount of words : 1
+Amount of words : 0
 Amount of characters : 0
 Amount of vowels : 0
 Amount of consonants : 0
@@ -47,7 +48,7 @@ Amount of consonants : 0
 
 ```
 Amount of words : 5
-Amount of characters : 26
+Amount of characters : 30
 Amount of vowels : 11
 Amount of consonants : 15
 oeeeeeo occurs 0 times.
@@ -60,7 +61,7 @@ oeeeeeo is a palindrome.
 
 ```
 Amount of words : 2
-Amount of characters : 10
+Amount of characters : 11
 Amount of vowels : 0
 Amount of consonants : 10
 oeeeeo occurs 0 times.
@@ -83,14 +84,11 @@ oeeeeO is not a palindrome.
 ###### Does the function returns the value above?
 
 
-
-
-
 ##### Try running the function with the arguments: `"Konbini oeoee", "64"`
 
 ```
 Amount of words : 2
-Amount of characters : 12
+Amount of characters : 13
 Amount of vowels : 8
 Amount of consonants : 4
 64 occurs 0 times.
@@ -103,9 +101,10 @@ Amount of consonants : 4
 
 ```
 Amount of words : 8
-Amount of characters : 28
+Amount of characters : 35
 Amount of vowels : 8
 Amount of consonants : 11
+No word passed as parameter
 ```
 
 ###### Does the function returns the value above?
@@ -113,7 +112,7 @@ Amount of consonants : 11
 ##### Try running the function with the arguments: `"", "mot"`
 
 ```
-Amount of words : 1
+Amount of words : 0
 Amount of characters : 0
 Amount of vowels : 0
 Amount of consonants : 0
@@ -127,7 +126,7 @@ mot is not a palindrome.
 
 ```
 Amount of words : 7
-Amount of characters : 24
+Amount of characters : 30
 Amount of vowels : 10
 Amount of consonants : 11
 Panama occurs 1 times.
@@ -140,7 +139,7 @@ Panama is not a palindrome.
 
 ```
 Amount of words : 5
-Amount of characters : 20
+Amount of characters : 24
 Amount of vowels : 5
 Amount of consonants : 15
 test occurs 5 times.
@@ -153,7 +152,7 @@ test is not a palindrome.
 
 ```
 Amount of words : 2
-Amount of characters : 10
+Amount of characters : 11
 Amount of vowels : 10
 Amount of consonants : 0
 iou occurs 1 times.
@@ -166,7 +165,7 @@ iou is not a palindrome.
 
 ```
 Amount of words : 2
-Amount of characters : 10
+Amount of characters : 11
 Amount of vowels : 0
 Amount of consonants : 0
 67890 occurs 1 times.
@@ -179,7 +178,7 @@ Amount of consonants : 0
 
 ```
 Amount of words : 2
-Amount of characters : 10
+Amount of characters : 11
 Amount of vowels : 0
 Amount of consonants : 0
 67876 occurs 0 times.
@@ -218,8 +217,8 @@ xyz is not a palindrome.
 
 ```
 Amount of words : 7
-Amount of characters : 28
-Amount of vowels : 10
+Amount of characters : 34
+Amount of vowels : 11
 Amount of consonants : 12
 ça va occurs 1 times.
 ça va is not a palindrome.
@@ -257,7 +256,7 @@ radar is a palindrome.
 
 ```
 Amount of words : 9
-Amount of characters : 13
+Amount of characters : 21
 Amount of vowels : 5
 Amount of consonants : 8
 en occurs 1 times.
