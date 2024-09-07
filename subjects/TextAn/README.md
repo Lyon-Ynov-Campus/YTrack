@@ -62,6 +62,7 @@ And its output :
 
 ```console
 $ go run .
+Amount of words : 11
 Amount of characters : 61
 Amount of vowels : 18
 Amount of consonants : 30
