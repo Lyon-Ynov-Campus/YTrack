@@ -94,3 +94,53 @@ kayak occurs 0 times.
 kayak is a palindrome.
 $
 ```
+
+Program #4
+
+```go
+package main
+
+import "piscine"
+
+func main() {
+	piscine.TextAn("oeo", "oeeeeO")
+}
+```
+
+And its output :
+
+```console
+$ go run .
+Amount of words : 1
+Amount of characters : 3
+Amount of vowels : 3
+Amount of consonants : 0
+oeeeeO occurs 0 times.
+oeeeeO is not a palindrome.
+$
+```
+
+Program #5
+
+```go
+package main
+
+import "piscine"
+
+func main() {
+	piscine.TextAn("12345 67890", "67876")
+}
+```
+
+And its output :
+
+```console
+$ go run .
+Amount of words : 2
+Amount of characters : 11
+Amount of vowels : 0
+Amount of consonants : 0
+67876 occurs 0 times.
+67876 is not a palindrome.
+$
+```
