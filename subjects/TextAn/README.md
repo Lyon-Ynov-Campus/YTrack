@@ -38,9 +38,9 @@ And its output :
 
 ```console
 $ go run .
-Amount of words : 9
-Amount of characters : 54
-Amount of vowels : 15
+Amount of words : 10
+Amount of characters : 53
+Amount of vowels : 16
 Amount of consonants : 25
 No word passed as parameter
 $
@@ -62,12 +62,11 @@ And its output :
 
 ```console
 $ go run .
-Amount of words : 9
-Amount of characters : 54
-Amount of vowels : 15
-Amount of consonants : 25
-"content" occurs 2 times
-"content" is not a palindrome
+Amount of characters : 61
+Amount of vowels : 18
+Amount of consonants : 30
+content occurs 2 times.
+content is not a palindrome.
 $
 ```
 
@@ -87,11 +86,11 @@ And its output :
 
 ```console
 $ go run .
-Amount of words : 9
-Amount of characters : 54
-Amount of vowels : 15
-Amount of consonants : 25
-"kayak" occurs 2 times
-"kayak" is a palindrome
+Amount of words : 11
+Amount of characters : 61
+Amount of vowels : 18
+Amount of consonants : 30
+kayak occurs 0 times.
+kayak is a palindrome.
 $
 ```
